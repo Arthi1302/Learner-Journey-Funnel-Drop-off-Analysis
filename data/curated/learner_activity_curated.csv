@@ -1,10 +1,901 @@
 user_id,course_id,enrollment_date,module_name,video_progress_pct,time_spent_minutes,assessment_attempts,assessment_score,completion_status,feedback_rating,device_type,access_time,funnel_stage,learner_type,learning_pace
-U001,DS101,2024-01-06,Intro to Data,100.0,45,1,85.0,Yes,5.0,mobile,10:30 AM,Completed,Casual Learner,Slow Learner
-U001,DS101,,SQL Basics,55.0,30,2,60.0,Yes,4.0,mobile,22:15,50%,Casual Learner,Slow Learner
-U001,DS101,2024-06-03,Python Basics,100.0,0,0,0.0,No,,desktop,9 PM,Completed,Casual Learner,Slow Learner
-U002,DS101,,Intro to Data,80.0,40,1,70.0,Yes,4.0,laptop,11:00,75%,Casual Learner,Slow Learner
-U002,DS101,,SQL Basics,,25,3,45.0,No,3.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
-U003,DA201,,Intro Analytics,20.0,5,0,0.0,No,,tablet,08:10,Started,Casual Learner,Slow Learner
-U003,DA201,,EDA Concepts,50.0,60,1,55.0,No,2.0,tablet,18:45,50%,Casual Learner,Slow Learner
-U004,DA201,,Intro Analytics,100.0,90,1,88.0,Yes,5.0,desktop,07:30,Completed,Power Learner,Slow Learner
-U004,DA201,,EDA Concepts,100.0,120,1,92.0,Yes,5.0,desktop,19:00,Completed,Power Learner,Binge Learner
+U0058,DS101,2024-06-09,Python Basics,,0,3,0.0,Yes,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0288,DS101,,Python Basics,,119,0,50.0,No,2.0,mobile,22:15,Enrolled,Power Learner,Slow Learner
+U0173,DS101,2024-06-13,Intro to Data,81.0,159,0,0.0,No,,laptop,9 PM,75%,Power Learner,Binge Learner
+U0186,ML301,2024-06-23,ML Intro,,0,1,42.0,No,3.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0190,DA201,,Intro Analytics,,0,1,89.0,No,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0167,DS101,2024-06-27,Intro to Data,70.0,0,1,0.0,No,3.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0136,DS101,,Intro to Data,57.0,154,2,0.0,No,,mobile,10:30 AM,50%,Power Learner,Binge Learner
+U0079,ML301,,ML Intro,,103,3,0.0,Yes,5.0,laptop,9 PM,Enrolled,Power Learner,Slow Learner
+U0175,DS101,2024-06-14,SQL Basics,,0,0,0.0,Yes,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0166,DA201,,Intro Analytics,,0,0,40.0,Yes,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0244,ML301,,ML Intro,,0,2,81.0,No,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0127,DS101,2024-06-11,Intro to Data,,0,0,0.0,Yes,2.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0143,ML301,,Regression,23.0,67,3,0.0,Yes,5.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0217,DA201,,EDA Concepts,,20,2,0.0,Yes,1.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0072,DA201,,Intro Analytics,,0,0,0.0,Yes,1.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0247,DS101,2024-06-29,SQL Basics,32.0,5,2,88.0,No,5.0,laptop,14:20,25%,Casual Learner,Slow Learner
+U0080,DS101,2024-06-07,SQL Basics,5.0,0,3,0.0,Yes,4.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0036,ML301,2024-06-22,ML Intro,,0,0,40.0,No,2.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0123,DA201,,EDA Concepts,66.0,0,0,0.0,Yes,4.0,mobile,9 PM,50%,Casual Learner,Slow Learner
+U0068,DA201,2024-06-29,Intro Analytics,84.0,45,2,31.0,Yes,1.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0055,ML301,,Model Evaluation,,0,2,94.0,No,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0142,DS101,2024-06-11,Intro to Data,,118,0,0.0,Yes,4.0,mobile,9 PM,Enrolled,Power Learner,Slow Learner
+U0299,ML301,2024-06-14,ML Intro,0.0,0,2,0.0,Yes,2.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0080,DS101,2024-06-26,Intro to Data,,50,3,61.0,Yes,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0020,DA201,,Intro Analytics,79.0,0,0,54.0,No,2.0,mobile,9 PM,75%,Casual Learner,Slow Learner
+U0180,ML301,,Model Evaluation,,34,1,0.0,Yes,4.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0161,DA201,2024-06-17,Dashboards,,0,3,0.0,No,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0161,ML301,,ML Intro,100.0,175,2,81.0,Yes,1.0,desktop,14:20,Completed,Power Learner,Binge Learner
+U0090,ML301,,Model Evaluation,0.0,0,3,71.0,No,3.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0087,ML301,,ML Intro,,65,1,0.0,Yes,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0038,DA201,,EDA Concepts,39.0,131,1,0.0,Yes,3.0,mobile,22:15,25%,Power Learner,Binge Learner
+U0266,DA201,2024-06-18,Intro Analytics,21.0,39,2,86.0,No,1.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0133,DS101,,Python Basics,,75,0,0.0,No,2.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0071,DS101,,Intro to Data,,21,3,72.0,No,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0200,ML301,,Model Evaluation,87.0,6,2,79.0,Yes,3.0,mobile,9 PM,75%,Casual Learner,Slow Learner
+U0224,DA201,,Intro Analytics,,0,0,0.0,Yes,5.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0237,DS101,,Intro to Data,,121,2,78.0,No,2.0,mobile,14:20,Enrolled,Power Learner,Binge Learner
+U0010,ML301,,Model Evaluation,,0,0,0.0,Yes,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0065,DA201,,Dashboards,45.0,70,1,0.0,No,,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0160,ML301,,Model Evaluation,,0,0,0.0,Yes,2.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0190,DS101,,Python Basics,0.0,0,3,76.0,Yes,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0276,DA201,,EDA Concepts,58.0,0,2,0.0,No,4.0,laptop,14:20,50%,Casual Learner,Slow Learner
+U0173,DS101,,SQL Basics,36.0,59,2,73.0,No,4.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0044,DS101,,Python Basics,51.0,170,3,0.0,No,1.0,desktop,22:15,50%,Power Learner,Binge Learner
+U0157,ML301,,Model Evaluation,78.0,145,2,88.0,No,2.0,mobile,10:30 AM,75%,Power Learner,Binge Learner
+U0099,DA201,,Intro Analytics,,60,2,0.0,Yes,2.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0092,DA201,,Intro Analytics,22.0,0,2,46.0,Yes,,laptop,9 PM,Started,Casual Learner,Slow Learner
+U0241,DA201,2024-06-11,EDA Concepts,3.0,0,0,81.0,Yes,4.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0077,ML301,2024-06-03,Regression,20.0,0,3,87.0,No,4.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0292,ML301,,ML Intro,,0,2,0.0,Yes,1.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0081,DS101,,SQL Basics,100.0,0,2,66.0,Yes,5.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0102,DA201,2024-06-18,Intro Analytics,28.0,0,0,51.0,No,3.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0156,ML301,,Regression,100.0,0,0,85.0,No,,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0295,ML301,,ML Intro,,49,3,0.0,No,5.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0241,DA201,,EDA Concepts,,89,3,66.0,Yes,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0130,DA201,,Intro Analytics,0.0,0,1,76.0,No,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0282,DS101,,SQL Basics,,0,1,0.0,No,,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0237,DS101,2024-06-27,Python Basics,100.0,135,3,91.0,Yes,3.0,laptop,22:15,Completed,Power Learner,Binge Learner
+U0197,DS101,,Python Basics,,75,2,94.0,Yes,2.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0077,DA201,,Dashboards,75.0,121,1,60.0,Yes,3.0,mobile,9 PM,75%,Power Learner,Binge Learner
+U0243,ML301,,Regression,28.0,0,2,42.0,Yes,4.0,desktop,10:30 AM,25%,Casual Learner,Slow Learner
+U0074,DA201,2024-06-05,Dashboards,100.0,91,0,72.0,No,5.0,desktop,10:30 AM,Completed,Power Learner,Slow Learner
+U0036,DS101,,Python Basics,,0,0,0.0,No,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0029,DA201,,EDA Concepts,,140,1,0.0,Yes,4.0,desktop,22:15,Enrolled,Power Learner,Binge Learner
+U0255,ML301,,ML Intro,55.0,0,3,0.0,Yes,3.0,desktop,9 PM,50%,Casual Learner,Slow Learner
+U0218,ML301,,Regression,40.0,0,1,78.0,No,5.0,desktop,10:30 AM,25%,Casual Learner,Slow Learner
+U0203,DA201,,Intro Analytics,2.0,0,2,0.0,No,5.0,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0021,DA201,,EDA Concepts,,28,2,0.0,Yes,1.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0272,ML301,2024-06-27,Regression,55.0,80,0,0.0,Yes,1.0,desktop,9 PM,50%,Casual Learner,Slow Learner
+U0047,DA201,,Intro Analytics,21.0,99,3,0.0,Yes,3.0,mobile,9 PM,Started,Power Learner,Slow Learner
+U0114,ML301,,ML Intro,67.0,0,0,34.0,No,,mobile,22:15,50%,Casual Learner,Slow Learner
+U0276,DS101,,SQL Basics,,0,3,82.0,Yes,5.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0228,DA201,,Intro Analytics,15.0,144,0,80.0,Yes,,desktop,10:30 AM,Started,Power Learner,Binge Learner
+U0109,ML301,2024-06-20,Model Evaluation,2.0,0,1,0.0,Yes,1.0,desktop,22:15,Started,Casual Learner,Slow Learner
+U0002,DA201,,Intro Analytics,,0,1,31.0,Yes,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0090,DA201,,Intro Analytics,,21,3,0.0,No,4.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0267,DA201,2024-06-21,EDA Concepts,5.0,107,0,92.0,Yes,,desktop,22:15,Started,Power Learner,Slow Learner
+U0034,DS101,,SQL Basics,73.0,157,3,94.0,Yes,5.0,mobile,22:15,50%,Power Learner,Binge Learner
+U0221,DA201,,Intro Analytics,100.0,0,2,84.0,No,2.0,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0035,DS101,,Intro to Data,14.0,0,2,45.0,No,5.0,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0148,ML301,2024-06-12,Regression,,44,1,43.0,No,,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0220,ML301,,Model Evaluation,0.0,0,2,69.0,No,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0290,ML301,2024-06-03,Regression,,0,3,83.0,No,1.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0167,ML301,2024-06-03,Model Evaluation,,0,0,64.0,No,3.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0213,DA201,,Intro Analytics,19.0,0,2,92.0,Yes,1.0,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0004,DS101,2024-07-01,SQL Basics,25.0,79,0,30.0,No,1.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0273,ML301,,ML Intro,,0,3,32.0,Yes,2.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0294,DA201,,Dashboards,,0,2,51.0,No,,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0125,DA201,,Dashboards,10.0,84,1,0.0,Yes,4.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0179,DA201,,Dashboards,,0,2,0.0,Yes,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0253,DA201,,Dashboards,100.0,165,1,0.0,No,3.0,desktop,9 PM,Completed,Power Learner,Binge Learner
+U0029,DA201,,Dashboards,100.0,0,2,0.0,Yes,4.0,laptop,14:20,Completed,Casual Learner,Slow Learner
+U0237,ML301,,Model Evaluation,0.0,0,2,0.0,Yes,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0044,ML301,2024-06-06,Model Evaluation,53.0,0,2,77.0,No,3.0,desktop,10:30 AM,50%,Casual Learner,Slow Learner
+U0172,DS101,,SQL Basics,88.0,0,2,0.0,No,2.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0044,DA201,,Dashboards,,0,3,95.0,Yes,2.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0110,DA201,2024-06-07,EDA Concepts,,24,0,0.0,No,4.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0079,DS101,,Intro to Data,32.0,16,2,60.0,No,5.0,desktop,22:15,25%,Casual Learner,Slow Learner
+U0274,DS101,,SQL Basics,39.0,178,3,66.0,No,1.0,mobile,22:15,25%,Power Learner,Binge Learner
+U0129,DS101,,Python Basics,,0,1,64.0,Yes,3.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0231,DA201,2024-06-14,Intro Analytics,91.0,65,0,0.0,Yes,2.0,mobile,9 PM,75%,Casual Learner,Slow Learner
+U0075,DS101,,Intro to Data,25.0,0,0,32.0,Yes,1.0,laptop,14:20,25%,Casual Learner,Slow Learner
+U0057,DA201,2024-06-10,Intro Analytics,,112,0,44.0,Yes,5.0,laptop,22:15,Enrolled,Power Learner,Slow Learner
+U0074,DA201,,EDA Concepts,,151,1,40.0,Yes,4.0,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0200,DA201,,Intro Analytics,85.0,9,0,0.0,Yes,4.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0023,DA201,,Dashboards,34.0,0,1,38.0,Yes,2.0,mobile,10:30 AM,25%,Casual Learner,Slow Learner
+U0103,DS101,,SQL Basics,91.0,0,1,66.0,Yes,5.0,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0064,DA201,,EDA Concepts,100.0,0,3,93.0,No,,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0221,ML301,,ML Intro,,25,2,69.0,No,1.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0229,DS101,,Python Basics,100.0,0,0,81.0,Yes,,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0018,DS101,,Intro to Data,83.0,0,1,87.0,No,3.0,mobile,22:15,75%,Casual Learner,Slow Learner
+U0272,DA201,,EDA Concepts,,0,1,93.0,Yes,2.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0110,ML301,,Regression,,0,3,52.0,Yes,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0034,ML301,,Model Evaluation,,0,0,0.0,Yes,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0284,ML301,,Regression,,21,3,91.0,No,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0163,ML301,,ML Intro,,0,1,0.0,Yes,4.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0085,DS101,,SQL Basics,47.0,137,0,0.0,No,1.0,desktop,10:30 AM,25%,Power Learner,Binge Learner
+U0258,ML301,,ML Intro,,173,0,0.0,Yes,5.0,laptop,9 PM,Enrolled,Power Learner,Binge Learner
+U0108,ML301,,Regression,0.0,165,2,0.0,No,2.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0031,DS101,,SQL Basics,,0,2,70.0,No,1.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0164,DS101,,SQL Basics,,0,0,67.0,No,1.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0296,ML301,2024-06-07,Regression,100.0,132,3,0.0,No,4.0,desktop,22:15,Completed,Power Learner,Binge Learner
+U0111,ML301,2024-06-02,Regression,62.0,157,2,0.0,No,1.0,desktop,9 PM,50%,Power Learner,Binge Learner
+U0207,DA201,2024-06-13,Intro Analytics,39.0,146,0,79.0,No,4.0,laptop,10:30 AM,25%,Power Learner,Binge Learner
+U0066,DS101,,SQL Basics,,55,0,0.0,Yes,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0266,DA201,,Intro Analytics,25.0,161,1,80.0,No,4.0,laptop,14:20,25%,Power Learner,Binge Learner
+U0289,DA201,2024-06-27,EDA Concepts,84.0,0,3,0.0,No,2.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0027,ML301,,Regression,,0,0,0.0,Yes,3.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0078,DA201,,Dashboards,100.0,0,1,71.0,No,2.0,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0273,DA201,,Dashboards,57.0,0,2,0.0,No,2.0,mobile,14:20,50%,Casual Learner,Slow Learner
+U0163,DA201,,EDA Concepts,60.0,36,3,0.0,No,,desktop,10:30 AM,50%,Casual Learner,Slow Learner
+U0178,DA201,,Dashboards,,56,2,0.0,Yes,1.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0120,DS101,,Intro to Data,,0,0,50.0,No,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0165,DA201,2024-06-02,Dashboards,,49,1,34.0,No,1.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0005,DA201,2024-06-20,Dashboards,75.0,121,1,94.0,No,1.0,mobile,9 PM,75%,Power Learner,Binge Learner
+U0084,ML301,,Regression,,91,1,52.0,No,4.0,desktop,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0206,ML301,2024-06-06,ML Intro,100.0,0,2,0.0,No,2.0,desktop,9 PM,Completed,Casual Learner,Slow Learner
+U0299,ML301,,Model Evaluation,,0,3,0.0,No,5.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0061,ML301,,Regression,,39,1,88.0,No,5.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0276,ML301,2024-06-25,ML Intro,10.0,140,0,0.0,Yes,4.0,laptop,22:15,Started,Power Learner,Binge Learner
+U0085,DA201,2024-06-15,Dashboards,42.0,28,0,0.0,No,3.0,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0287,DA201,,Dashboards,0.0,0,1,0.0,No,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0036,DA201,,Intro Analytics,,169,2,78.0,No,3.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0179,DS101,,Intro to Data,,0,2,89.0,No,1.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0178,DS101,,SQL Basics,,174,0,0.0,Yes,,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0229,ML301,2024-06-23,Model Evaluation,,107,1,0.0,Yes,4.0,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0295,DA201,,Dashboards,,0,1,82.0,No,,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0219,ML301,,Regression,87.0,111,1,68.0,Yes,4.0,desktop,22:15,75%,Power Learner,Slow Learner
+U0116,DA201,,Dashboards,4.0,0,3,61.0,Yes,2.0,mobile,14:20,Started,Casual Learner,Slow Learner
+U0190,DS101,2024-06-24,Python Basics,3.0,0,0,0.0,No,1.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0008,DS101,,Intro to Data,20.0,0,3,60.0,No,3.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0158,DA201,,EDA Concepts,,125,1,77.0,No,,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0075,DS101,,SQL Basics,96.0,0,2,59.0,Yes,3.0,laptop,9 PM,75%,Casual Learner,Slow Learner
+U0132,DA201,,Dashboards,100.0,48,1,47.0,Yes,4.0,mobile,10:30 AM,Completed,Casual Learner,Slow Learner
+U0039,ML301,2024-06-25,ML Intro,,0,0,0.0,Yes,4.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0031,ML301,,Model Evaluation,100.0,0,3,0.0,No,4.0,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0258,ML301,2024-06-14,Model Evaluation,,0,1,54.0,No,2.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0192,DA201,2024-06-19,EDA Concepts,47.0,0,0,41.0,No,3.0,laptop,14:20,25%,Casual Learner,Slow Learner
+U0029,ML301,2024-06-23,ML Intro,11.0,116,0,0.0,Yes,5.0,laptop,14:20,Started,Power Learner,Slow Learner
+U0139,DS101,,Intro to Data,,0,1,48.0,Yes,2.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0291,DA201,,Dashboards,74.0,0,2,0.0,No,1.0,mobile,9 PM,50%,Casual Learner,Slow Learner
+U0204,DA201,,Intro Analytics,100.0,63,3,0.0,No,,laptop,9 PM,Completed,Casual Learner,Slow Learner
+U0127,ML301,,ML Intro,29.0,0,3,70.0,Yes,,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0228,DA201,2024-06-04,EDA Concepts,,115,3,0.0,Yes,2.0,laptop,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0167,DA201,,Intro Analytics,,0,1,0.0,Yes,2.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0253,DS101,,Intro to Data,60.0,81,0,76.0,Yes,5.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0235,DS101,2024-06-10,Intro to Data,91.0,163,2,86.0,No,5.0,laptop,22:15,75%,Power Learner,Binge Learner
+U0154,DA201,,Dashboards,41.0,0,3,70.0,No,4.0,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0193,DA201,2024-06-12,EDA Concepts,,0,3,56.0,No,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0256,DS101,2024-06-10,Python Basics,,113,0,87.0,No,4.0,laptop,14:20,Enrolled,Power Learner,Slow Learner
+U0279,DS101,,SQL Basics,,68,1,35.0,No,3.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0051,DA201,,Intro Analytics,46.0,100,3,0.0,No,,desktop,10:30 AM,25%,Power Learner,Slow Learner
+U0152,DA201,,Intro Analytics,26.0,84,3,56.0,No,3.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0232,DA201,2024-06-10,Intro Analytics,,0,1,0.0,Yes,2.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0237,DS101,2024-06-21,SQL Basics,37.0,0,1,87.0,No,,mobile,22:15,25%,Casual Learner,Slow Learner
+U0143,ML301,2024-06-19,ML Intro,37.0,0,3,44.0,No,4.0,desktop,14:20,25%,Casual Learner,Slow Learner
+U0201,ML301,,ML Intro,,177,0,47.0,Yes,1.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0094,DA201,,Dashboards,89.0,0,3,0.0,No,5.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0285,DS101,2024-06-10,SQL Basics,37.0,0,2,31.0,Yes,1.0,desktop,14:20,25%,Casual Learner,Slow Learner
+U0210,ML301,,Regression,100.0,0,0,58.0,Yes,2.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0087,DA201,,Dashboards,,0,2,0.0,No,4.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0053,ML301,2024-06-25,Model Evaluation,,120,2,41.0,Yes,1.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0220,DS101,2024-06-05,Python Basics,,150,2,51.0,No,2.0,laptop,9 PM,Enrolled,Power Learner,Binge Learner
+U0264,ML301,,ML Intro,5.0,0,1,0.0,No,1.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0073,ML301,,Model Evaluation,96.0,0,0,81.0,No,3.0,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0298,DS101,,Python Basics,100.0,21,1,0.0,No,2.0,desktop,9 PM,Completed,Casual Learner,Slow Learner
+U0173,ML301,,Model Evaluation,100.0,0,0,42.0,Yes,,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0234,DS101,,SQL Basics,23.0,45,0,76.0,Yes,2.0,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0203,ML301,,Regression,49.0,0,0,0.0,No,,mobile,22:15,25%,Casual Learner,Slow Learner
+U0266,ML301,2024-06-01,Regression,,0,3,0.0,No,,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0161,DA201,,EDA Concepts,,0,1,86.0,Yes,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0227,DS101,2024-06-29,Intro to Data,,155,2,84.0,Yes,1.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0128,ML301,,Model Evaluation,,173,1,0.0,No,2.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0254,DA201,,Intro Analytics,,97,1,79.0,No,4.0,mobile,14:20,Enrolled,Power Learner,Slow Learner
+U0038,DS101,2024-06-03,Python Basics,,0,3,94.0,No,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0275,ML301,,Model Evaluation,11.0,0,1,71.0,Yes,2.0,desktop,22:15,Started,Casual Learner,Slow Learner
+U0030,DS101,,Intro to Data,19.0,0,2,0.0,Yes,5.0,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0084,DA201,,EDA Concepts,,0,2,0.0,No,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0135,ML301,2024-06-21,Model Evaluation,100.0,135,0,0.0,No,1.0,desktop,10:30 AM,Completed,Power Learner,Binge Learner
+U0294,ML301,2024-06-04,Model Evaluation,,0,1,35.0,No,3.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0019,ML301,,Model Evaluation,,0,3,70.0,Yes,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0258,ML301,2024-06-06,ML Intro,1.0,22,2,69.0,Yes,4.0,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0189,DS101,,SQL Basics,52.0,99,1,0.0,Yes,3.0,mobile,22:15,50%,Power Learner,Slow Learner
+U0278,DA201,,Dashboards,0.0,5,2,0.0,Yes,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0073,ML301,2024-06-03,Regression,49.0,100,0,0.0,No,,laptop,10:30 AM,25%,Power Learner,Slow Learner
+U0223,ML301,,ML Intro,56.0,105,2,87.0,Yes,,mobile,22:15,50%,Power Learner,Slow Learner
+U0300,DS101,2024-06-04,Intro to Data,100.0,85,0,0.0,No,2.0,desktop,9 PM,Completed,Casual Learner,Slow Learner
+U0062,DS101,,Intro to Data,,60,1,0.0,No,3.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0154,DA201,,Intro Analytics,,29,0,0.0,Yes,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0102,DA201,,EDA Concepts,11.0,0,0,55.0,Yes,,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0022,DA201,,Intro Analytics,100.0,0,3,0.0,No,1.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0144,DA201,,Intro Analytics,52.0,132,3,0.0,No,3.0,mobile,14:20,50%,Power Learner,Binge Learner
+U0103,ML301,,Model Evaluation,0.0,96,3,74.0,No,2.0,mobile,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0164,ML301,,ML Intro,4.0,140,1,0.0,Yes,5.0,mobile,9 PM,Started,Power Learner,Binge Learner
+U0274,ML301,2024-06-25,ML Intro,89.0,0,1,70.0,Yes,5.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0289,DS101,,SQL Basics,34.0,0,0,0.0,Yes,4.0,desktop,10:30 AM,25%,Casual Learner,Slow Learner
+U0170,ML301,2024-06-26,ML Intro,,0,0,0.0,Yes,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0192,ML301,,Model Evaluation,15.0,82,1,50.0,No,5.0,desktop,22:15,Started,Casual Learner,Slow Learner
+U0288,ML301,,Model Evaluation,,101,2,0.0,Yes,5.0,laptop,14:20,Enrolled,Power Learner,Slow Learner
+U0291,DS101,,Intro to Data,,0,2,0.0,No,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0172,DA201,2024-06-09,Intro Analytics,,94,0,0.0,No,3.0,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0212,DA201,,EDA Concepts,,0,1,0.0,Yes,2.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0134,DS101,2024-06-11,Intro to Data,,0,2,0.0,No,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0081,DS101,2024-06-11,Intro to Data,38.0,146,2,0.0,Yes,,desktop,14:20,25%,Power Learner,Binge Learner
+U0079,DS101,,SQL Basics,12.0,174,1,0.0,Yes,1.0,desktop,10:30 AM,Started,Power Learner,Binge Learner
+U0243,DS101,,SQL Basics,100.0,174,0,0.0,No,3.0,desktop,22:15,Completed,Power Learner,Binge Learner
+U0229,DS101,,SQL Basics,,0,1,0.0,No,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0284,DS101,,SQL Basics,97.0,0,3,0.0,No,5.0,mobile,22:15,75%,Casual Learner,Slow Learner
+U0062,DA201,2024-07-01,Intro Analytics,,0,3,40.0,Yes,5.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0164,ML301,,ML Intro,91.0,75,0,0.0,No,1.0,mobile,10:30 AM,75%,Casual Learner,Slow Learner
+U0055,ML301,,ML Intro,78.0,72,3,0.0,Yes,2.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0206,DS101,,SQL Basics,,126,2,32.0,No,2.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0051,DS101,,Intro to Data,100.0,73,0,54.0,Yes,3.0,desktop,9 PM,Completed,Casual Learner,Slow Learner
+U0029,ML301,,ML Intro,100.0,0,1,0.0,Yes,1.0,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0026,DA201,,Dashboards,84.0,134,0,0.0,No,3.0,laptop,14:20,75%,Power Learner,Binge Learner
+U0091,DA201,,Dashboards,,0,2,33.0,Yes,1.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0114,ML301,2024-06-22,ML Intro,58.0,0,0,0.0,Yes,4.0,mobile,22:15,50%,Casual Learner,Slow Learner
+U0130,ML301,,Regression,60.0,101,3,0.0,No,2.0,laptop,14:20,50%,Power Learner,Slow Learner
+U0300,DS101,,Intro to Data,85.0,0,3,38.0,No,5.0,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0134,ML301,,Model Evaluation,,0,0,81.0,Yes,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0152,DA201,,EDA Concepts,,0,3,75.0,Yes,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0151,DS101,,SQL Basics,,179,0,58.0,Yes,5.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0170,DA201,,EDA Concepts,,0,0,0.0,Yes,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0212,DS101,2024-06-05,Intro to Data,77.0,150,1,0.0,Yes,3.0,desktop,22:15,75%,Power Learner,Binge Learner
+U0161,ML301,,ML Intro,,0,3,0.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0220,DA201,2024-06-01,EDA Concepts,41.0,8,1,0.0,Yes,1.0,desktop,9 PM,25%,Casual Learner,Slow Learner
+U0067,DS101,,SQL Basics,,0,2,67.0,No,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0251,DA201,,Intro Analytics,,0,1,0.0,Yes,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0131,ML301,,Model Evaluation,,0,0,44.0,No,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0243,ML301,,ML Intro,0.0,0,2,47.0,Yes,4.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0145,DS101,2024-06-16,Intro to Data,41.0,0,2,82.0,Yes,,laptop,14:20,25%,Casual Learner,Slow Learner
+U0107,ML301,2024-06-11,Regression,,0,0,0.0,Yes,4.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0132,ML301,,ML Intro,57.0,0,1,35.0,No,5.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0060,DS101,2024-06-01,Intro to Data,33.0,96,2,41.0,No,1.0,mobile,14:20,25%,Power Learner,Slow Learner
+U0205,DA201,,EDA Concepts,100.0,0,0,0.0,Yes,,desktop,14:20,Completed,Casual Learner,Slow Learner
+U0292,ML301,,Regression,87.0,0,1,91.0,Yes,3.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0033,DA201,2024-06-11,Dashboards,47.0,0,3,61.0,No,5.0,desktop,22:15,25%,Casual Learner,Slow Learner
+U0286,ML301,,ML Intro,30.0,0,0,92.0,Yes,2.0,desktop,10:30 AM,25%,Casual Learner,Slow Learner
+U0260,DS101,,Python Basics,,25,3,0.0,No,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0255,ML301,2024-06-01,Model Evaluation,93.0,0,0,0.0,No,2.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0115,DA201,,EDA Concepts,100.0,0,0,0.0,No,2.0,desktop,9 PM,Completed,Casual Learner,Slow Learner
+U0055,DS101,2024-06-16,Intro to Data,,0,1,45.0,Yes,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0056,DA201,,Intro Analytics,21.0,0,3,0.0,No,4.0,desktop,22:15,Started,Casual Learner,Slow Learner
+U0297,DS101,2024-06-27,Python Basics,16.0,173,3,0.0,No,3.0,desktop,9 PM,Started,Power Learner,Binge Learner
+U0232,DS101,,Intro to Data,66.0,0,1,56.0,No,5.0,mobile,22:15,50%,Casual Learner,Slow Learner
+U0258,ML301,,Model Evaluation,19.0,148,3,66.0,Yes,4.0,mobile,10:30 AM,Started,Power Learner,Binge Learner
+U0196,DS101,2024-06-22,Intro to Data,41.0,46,2,0.0,No,1.0,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0184,DA201,,Intro Analytics,47.0,65,0,78.0,No,5.0,desktop,10:30 AM,25%,Casual Learner,Slow Learner
+U0007,ML301,,Regression,,167,1,54.0,No,1.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0089,ML301,,Model Evaluation,0.0,76,1,50.0,Yes,2.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0021,DS101,2024-06-20,SQL Basics,67.0,151,0,0.0,Yes,4.0,mobile,22:15,50%,Power Learner,Binge Learner
+U0213,ML301,2024-06-13,Model Evaluation,,59,2,76.0,Yes,4.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0288,ML301,,ML Intro,78.0,0,0,71.0,Yes,3.0,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0013,ML301,,Regression,100.0,16,1,0.0,Yes,1.0,laptop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0034,DS101,2024-06-21,Python Basics,,57,0,0.0,No,5.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0045,DS101,,Intro to Data,,71,3,87.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0061,ML301,,ML Intro,,23,0,67.0,Yes,2.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0203,ML301,2024-06-16,ML Intro,,105,1,68.0,Yes,4.0,laptop,22:15,Enrolled,Power Learner,Slow Learner
+U0064,DS101,,Intro to Data,,0,2,57.0,Yes,1.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0130,DS101,,Intro to Data,3.0,0,2,38.0,Yes,1.0,laptop,14:20,Started,Casual Learner,Slow Learner
+U0170,DA201,,Intro Analytics,,0,1,70.0,No,2.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0300,DS101,,Python Basics,70.0,0,2,0.0,No,2.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0170,DA201,,EDA Concepts,68.0,0,1,40.0,Yes,4.0,mobile,9 PM,50%,Casual Learner,Slow Learner
+U0040,ML301,2024-06-29,ML Intro,,153,1,34.0,No,5.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0201,DS101,,Python Basics,24.0,0,3,0.0,Yes,4.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0229,DS101,,Intro to Data,27.0,0,1,0.0,Yes,2.0,desktop,22:15,25%,Casual Learner,Slow Learner
+U0022,ML301,,ML Intro,89.0,0,0,0.0,No,5.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0193,ML301,,Regression,9.0,0,3,75.0,No,3.0,laptop,10:30 AM,Started,Casual Learner,Slow Learner
+U0257,DS101,2024-06-06,SQL Basics,9.0,0,1,50.0,Yes,5.0,mobile,14:20,Started,Casual Learner,Slow Learner
+U0170,ML301,,ML Intro,100.0,0,3,0.0,Yes,1.0,laptop,22:15,Completed,Casual Learner,Slow Learner
+U0069,ML301,,Model Evaluation,,47,1,0.0,No,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0242,DA201,,Intro Analytics,,164,1,73.0,Yes,1.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0068,DS101,,Intro to Data,100.0,0,1,0.0,Yes,,desktop,22:15,Completed,Casual Learner,Slow Learner
+U0277,DS101,,Python Basics,97.0,16,1,91.0,No,4.0,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0218,DS101,2024-06-16,SQL Basics,11.0,158,2,0.0,Yes,4.0,laptop,10:30 AM,Started,Power Learner,Binge Learner
+U0267,DS101,2024-06-21,SQL Basics,70.0,0,1,84.0,No,4.0,desktop,9 PM,50%,Casual Learner,Slow Learner
+U0142,ML301,2024-06-25,Regression,95.0,50,3,62.0,No,5.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0061,ML301,,ML Intro,,59,2,0.0,No,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0075,DA201,2024-06-14,Dashboards,6.0,61,0,34.0,No,4.0,laptop,9 PM,Started,Casual Learner,Slow Learner
+U0030,DS101,,Python Basics,,173,1,0.0,Yes,5.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0123,ML301,2024-06-06,ML Intro,60.0,95,3,0.0,Yes,,laptop,9 PM,50%,Power Learner,Slow Learner
+U0287,ML301,,Regression,,121,0,0.0,No,4.0,mobile,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0258,DA201,2024-07-01,EDA Concepts,55.0,118,3,61.0,No,5.0,desktop,10:30 AM,50%,Power Learner,Slow Learner
+U0247,DS101,,SQL Basics,,85,2,31.0,Yes,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0176,DS101,2024-06-30,Python Basics,100.0,0,2,0.0,No,5.0,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0124,DA201,2024-06-08,Intro Analytics,53.0,0,0,40.0,Yes,4.0,mobile,14:20,50%,Casual Learner,Slow Learner
+U0191,ML301,,Regression,60.0,51,3,0.0,Yes,4.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0277,DS101,,Python Basics,34.0,35,2,0.0,Yes,3.0,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0167,DA201,,Dashboards,37.0,65,3,73.0,Yes,3.0,desktop,22:15,25%,Casual Learner,Slow Learner
+U0215,ML301,,Regression,61.0,0,1,42.0,Yes,4.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0101,DS101,,Python Basics,,112,1,70.0,No,2.0,laptop,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0204,DS101,2024-06-06,Python Basics,45.0,0,3,72.0,No,2.0,laptop,9 PM,25%,Casual Learner,Slow Learner
+U0177,DS101,,SQL Basics,,77,2,95.0,No,,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0238,ML301,2024-06-28,ML Intro,76.0,166,0,0.0,No,1.0,desktop,9 PM,75%,Power Learner,Binge Learner
+U0150,ML301,,Regression,91.0,118,3,0.0,Yes,,mobile,22:15,75%,Power Learner,Slow Learner
+U0129,ML301,2024-06-24,Model Evaluation,,0,0,38.0,Yes,,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0054,DA201,2024-06-05,Dashboards,89.0,0,2,0.0,Yes,4.0,mobile,10:30 AM,75%,Casual Learner,Slow Learner
+U0018,ML301,,Regression,100.0,143,3,0.0,No,5.0,laptop,14:20,Completed,Power Learner,Binge Learner
+U0269,ML301,,Model Evaluation,78.0,0,0,86.0,No,3.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0156,DS101,2024-06-17,Intro to Data,78.0,0,3,91.0,Yes,3.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0004,ML301,,Regression,100.0,0,3,0.0,No,,desktop,22:15,Completed,Casual Learner,Slow Learner
+U0265,ML301,,Model Evaluation,62.0,0,0,0.0,No,,desktop,14:20,50%,Casual Learner,Slow Learner
+U0140,ML301,2024-06-16,Model Evaluation,,0,0,0.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0005,DS101,2024-06-05,Intro to Data,,92,2,93.0,No,5.0,mobile,9 PM,Enrolled,Power Learner,Slow Learner
+U0042,DS101,,Intro to Data,8.0,0,2,0.0,Yes,5.0,mobile,14:20,Started,Casual Learner,Slow Learner
+U0227,DS101,2024-06-02,Python Basics,,0,3,79.0,No,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0130,DA201,2024-06-10,Dashboards,,0,0,60.0,No,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0300,DS101,2024-06-26,SQL Basics,,153,1,0.0,Yes,1.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0174,ML301,,ML Intro,,37,1,70.0,No,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0194,DA201,,Dashboards,0.0,117,3,0.0,No,2.0,desktop,9 PM,Enrolled,Power Learner,Slow Learner
+U0284,DS101,2024-06-17,Intro to Data,100.0,72,3,30.0,Yes,,laptop,9 PM,Completed,Casual Learner,Slow Learner
+U0123,DA201,,Dashboards,,139,1,66.0,No,5.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0050,ML301,2024-06-03,Model Evaluation,,0,0,0.0,Yes,,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0251,ML301,,Model Evaluation,,0,0,0.0,No,,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0185,ML301,,Model Evaluation,,162,0,39.0,Yes,1.0,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0052,ML301,,ML Intro,,0,1,0.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0054,DS101,,Intro to Data,100.0,0,3,75.0,No,2.0,desktop,14:20,Completed,Casual Learner,Slow Learner
+U0166,ML301,,ML Intro,44.0,145,2,87.0,No,,mobile,9 PM,25%,Power Learner,Binge Learner
+U0009,ML301,,ML Intro,0.0,0,2,32.0,Yes,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0183,DS101,,Intro to Data,,70,0,0.0,Yes,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0089,DA201,,Dashboards,14.0,14,0,37.0,No,3.0,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0117,ML301,,Model Evaluation,0.0,18,0,0.0,No,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0026,ML301,,Model Evaluation,,61,2,0.0,Yes,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0293,ML301,,ML Intro,,107,1,47.0,Yes,3.0,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0288,ML301,2024-06-17,Model Evaluation,,73,2,0.0,No,3.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0098,DA201,,EDA Concepts,0.0,48,3,48.0,Yes,1.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0080,ML301,,ML Intro,,0,2,31.0,Yes,2.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0012,DA201,,Intro Analytics,,144,3,0.0,No,4.0,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0131,DS101,2024-06-10,Intro to Data,,0,0,79.0,No,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0198,DS101,,SQL Basics,15.0,0,1,55.0,Yes,,mobile,9 PM,Started,Casual Learner,Slow Learner
+U0171,DA201,2024-06-24,EDA Concepts,0.0,180,2,0.0,No,,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0016,ML301,2024-06-08,Regression,77.0,0,0,0.0,No,1.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0219,DA201,,Dashboards,,0,1,47.0,Yes,3.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0163,DS101,,Python Basics,,0,0,70.0,No,2.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0078,DS101,2024-06-05,Intro to Data,0.0,0,1,0.0,No,,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0258,ML301,,Regression,,104,3,0.0,Yes,1.0,mobile,14:20,Enrolled,Power Learner,Slow Learner
+U0008,DA201,,EDA Concepts,,0,3,92.0,No,1.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0022,ML301,,Model Evaluation,70.0,0,0,87.0,Yes,1.0,laptop,14:20,50%,Casual Learner,Slow Learner
+U0021,ML301,,Regression,,79,3,68.0,No,1.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0028,ML301,2024-06-29,Model Evaluation,100.0,0,1,47.0,No,2.0,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0092,DA201,,Dashboards,41.0,28,2,0.0,Yes,,desktop,9 PM,25%,Casual Learner,Slow Learner
+U0044,ML301,,Model Evaluation,,101,0,51.0,Yes,1.0,mobile,22:15,Enrolled,Power Learner,Slow Learner
+U0027,DA201,,EDA Concepts,100.0,0,0,0.0,Yes,4.0,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0235,DA201,2024-06-18,EDA Concepts,,60,3,82.0,Yes,4.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0126,ML301,,Regression,,0,0,0.0,Yes,,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0170,DS101,,Intro to Data,,177,1,88.0,Yes,,desktop,9 PM,Enrolled,Power Learner,Binge Learner
+U0189,DA201,,Intro Analytics,6.0,0,0,65.0,No,4.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0030,DS101,,Python Basics,12.0,159,3,70.0,No,1.0,laptop,14:20,Started,Power Learner,Binge Learner
+U0267,ML301,,Model Evaluation,,0,0,0.0,No,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0213,DA201,,Intro Analytics,,0,2,0.0,No,2.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0004,DS101,,Python Basics,,0,2,73.0,No,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0080,ML301,,Regression,75.0,0,2,0.0,Yes,4.0,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0034,DS101,2024-06-27,SQL Basics,76.0,0,3,0.0,No,5.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0140,DA201,2024-06-16,Intro Analytics,85.0,0,2,0.0,No,,mobile,10:30 AM,75%,Casual Learner,Slow Learner
+U0228,ML301,,ML Intro,,53,3,69.0,Yes,,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0106,ML301,,ML Intro,,0,0,72.0,Yes,,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0012,ML301,2024-06-21,Regression,,54,2,70.0,Yes,2.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0141,DS101,,Intro to Data,,143,2,0.0,No,4.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0037,DA201,,Dashboards,,0,3,0.0,No,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0201,DS101,,Python Basics,100.0,84,1,40.0,Yes,,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0234,DA201,,Dashboards,100.0,0,1,63.0,No,1.0,desktop,9 PM,Completed,Casual Learner,Slow Learner
+U0233,DA201,,Intro Analytics,18.0,127,1,66.0,Yes,4.0,mobile,14:20,Started,Power Learner,Binge Learner
+U0055,DA201,2024-06-21,Dashboards,67.0,107,1,0.0,No,3.0,mobile,9 PM,50%,Power Learner,Slow Learner
+U0107,ML301,,Model Evaluation,,0,3,44.0,No,4.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0091,DA201,,EDA Concepts,17.0,88,0,0.0,Yes,4.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0077,DA201,,Dashboards,,57,2,68.0,No,,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0262,DA201,,Intro Analytics,5.0,0,0,0.0,No,,mobile,14:20,Started,Casual Learner,Slow Learner
+U0202,ML301,,Regression,93.0,0,1,0.0,Yes,4.0,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0214,DS101,,SQL Basics,,0,0,48.0,No,1.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0213,DA201,,Dashboards,36.0,135,3,79.0,Yes,1.0,desktop,10:30 AM,25%,Power Learner,Binge Learner
+U0296,DA201,,Dashboards,100.0,110,0,34.0,No,,laptop,14:20,Completed,Power Learner,Slow Learner
+U0041,DS101,,Python Basics,61.0,0,0,61.0,Yes,5.0,laptop,9 PM,50%,Casual Learner,Slow Learner
+U0028,DA201,2024-06-25,Dashboards,100.0,136,2,83.0,No,2.0,mobile,10:30 AM,Completed,Power Learner,Binge Learner
+U0156,ML301,2024-06-09,Model Evaluation,,0,2,33.0,No,,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0143,DA201,,Intro Analytics,60.0,0,1,49.0,No,1.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0249,DS101,2024-06-28,Python Basics,,0,3,82.0,Yes,5.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0108,ML301,,Model Evaluation,3.0,0,1,89.0,No,2.0,desktop,22:15,Started,Casual Learner,Slow Learner
+U0195,ML301,,Model Evaluation,,140,0,66.0,No,5.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0050,ML301,,Model Evaluation,59.0,74,0,62.0,No,5.0,mobile,22:15,50%,Casual Learner,Slow Learner
+U0267,DA201,2024-06-23,Dashboards,,0,0,31.0,Yes,4.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0180,DS101,,Python Basics,,0,0,0.0,Yes,,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0193,ML301,2024-06-19,Model Evaluation,,69,3,39.0,No,3.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0083,DS101,2024-06-25,SQL Basics,87.0,0,2,0.0,No,,desktop,22:15,75%,Casual Learner,Slow Learner
+U0202,DS101,2024-06-16,Python Basics,26.0,0,3,0.0,Yes,,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0229,DS101,,SQL Basics,,175,2,49.0,No,4.0,mobile,14:20,Enrolled,Power Learner,Binge Learner
+U0245,DA201,,EDA Concepts,,5,3,45.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0029,ML301,,Model Evaluation,,122,1,0.0,No,5.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0200,DS101,,Python Basics,,166,1,0.0,Yes,,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0251,DA201,,Intro Analytics,68.0,141,0,34.0,Yes,2.0,mobile,14:20,50%,Power Learner,Binge Learner
+U0061,DS101,,Python Basics,,0,0,0.0,No,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0024,DS101,2024-06-21,Python Basics,,0,2,42.0,Yes,4.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0059,DA201,,Dashboards,,56,2,81.0,Yes,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0165,DS101,2024-06-19,Intro to Data,,35,1,0.0,No,4.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0125,ML301,2024-06-05,ML Intro,,9,0,0.0,Yes,,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0214,ML301,2024-06-23,Regression,,168,3,0.0,Yes,4.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0256,ML301,,ML Intro,79.0,0,1,0.0,No,4.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0238,ML301,,Model Evaluation,,0,3,0.0,Yes,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0187,DA201,,Intro Analytics,75.0,0,0,0.0,Yes,3.0,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0037,DS101,,Python Basics,73.0,55,1,44.0,Yes,,mobile,14:20,50%,Casual Learner,Slow Learner
+U0103,DA201,,Intro Analytics,,0,1,0.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0100,ML301,2024-06-09,Regression,,0,2,0.0,No,3.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0176,DS101,2024-06-20,SQL Basics,,27,3,57.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0127,DS101,,SQL Basics,,0,3,0.0,No,5.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0218,ML301,,Regression,15.0,0,0,31.0,Yes,1.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0123,ML301,,ML Intro,,0,3,0.0,No,1.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0001,ML301,,ML Intro,,80,2,0.0,No,5.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0027,DS101,,SQL Basics,0.0,0,0,0.0,No,1.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0245,ML301,,Model Evaluation,,87,2,94.0,No,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0177,DA201,,EDA Concepts,21.0,141,3,0.0,Yes,3.0,mobile,10:30 AM,Started,Power Learner,Binge Learner
+U0201,DS101,2024-07-01,SQL Basics,,0,1,0.0,Yes,4.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0214,ML301,2024-06-30,Model Evaluation,100.0,112,0,0.0,Yes,,mobile,9 PM,Completed,Power Learner,Slow Learner
+U0211,ML301,,Regression,73.0,156,3,0.0,No,1.0,desktop,22:15,50%,Power Learner,Binge Learner
+U0248,DA201,2024-06-25,EDA Concepts,27.0,77,1,50.0,Yes,1.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0122,DS101,,Intro to Data,22.0,71,1,0.0,No,2.0,mobile,9 PM,Started,Casual Learner,Slow Learner
+U0230,ML301,,ML Intro,,108,1,88.0,Yes,,laptop,9 PM,Enrolled,Power Learner,Slow Learner
+U0152,DA201,,EDA Concepts,27.0,0,3,0.0,Yes,2.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0113,DA201,,EDA Concepts,,0,2,0.0,Yes,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0263,DA201,,Intro Analytics,,175,3,48.0,No,3.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0146,DA201,,EDA Concepts,,118,3,0.0,No,5.0,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0045,DS101,,Intro to Data,,156,0,30.0,No,3.0,mobile,14:20,Enrolled,Power Learner,Binge Learner
+U0291,DS101,,Intro to Data,64.0,15,2,93.0,Yes,,mobile,22:15,50%,Casual Learner,Slow Learner
+U0135,DA201,,Dashboards,,172,3,52.0,Yes,,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0253,DS101,,Python Basics,100.0,71,0,0.0,No,1.0,laptop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0075,DA201,,EDA Concepts,24.0,0,2,76.0,No,,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0272,ML301,2024-06-17,ML Intro,,0,2,70.0,No,5.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0274,ML301,2024-06-27,Regression,,137,2,92.0,No,1.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0080,ML301,2024-06-27,ML Intro,19.0,0,0,0.0,No,2.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0072,DA201,,Dashboards,34.0,0,1,0.0,Yes,2.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0067,DS101,2024-06-23,SQL Basics,,128,0,0.0,Yes,5.0,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0241,DS101,2024-06-02,SQL Basics,,0,1,0.0,No,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0143,ML301,2024-06-12,Regression,,0,0,0.0,Yes,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0051,DS101,,Python Basics,100.0,0,3,0.0,No,3.0,desktop,22:15,Completed,Casual Learner,Slow Learner
+U0264,DS101,,SQL Basics,21.0,0,3,76.0,Yes,,desktop,14:20,Started,Casual Learner,Slow Learner
+U0060,DA201,,EDA Concepts,69.0,62,2,0.0,Yes,3.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0007,ML301,2024-06-22,Regression,91.0,0,0,48.0,No,5.0,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0087,DS101,,SQL Basics,41.0,0,3,93.0,No,5.0,desktop,9 PM,25%,Casual Learner,Slow Learner
+U0244,ML301,,Model Evaluation,100.0,42,0,45.0,No,3.0,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0016,DS101,2024-06-02,Python Basics,,50,2,49.0,Yes,,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0239,DS101,,SQL Basics,100.0,143,0,34.0,Yes,3.0,desktop,9 PM,Completed,Power Learner,Binge Learner
+U0193,DA201,2024-06-02,EDA Concepts,35.0,47,3,47.0,No,3.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0284,ML301,,Model Evaluation,,0,3,63.0,No,4.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0165,DS101,2024-06-19,Intro to Data,22.0,0,2,0.0,No,2.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0180,DS101,2024-06-08,Python Basics,50.0,0,0,0.0,No,1.0,mobile,9 PM,50%,Casual Learner,Slow Learner
+U0020,DA201,,Dashboards,97.0,10,0,70.0,No,2.0,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0251,DS101,2024-06-22,Python Basics,76.0,133,1,68.0,No,1.0,desktop,10:30 AM,75%,Power Learner,Binge Learner
+U0275,DS101,2024-06-09,SQL Basics,66.0,0,0,73.0,Yes,4.0,laptop,14:20,50%,Casual Learner,Slow Learner
+U0219,DS101,2024-06-26,SQL Basics,67.0,115,1,83.0,No,4.0,laptop,14:20,50%,Power Learner,Slow Learner
+U0281,DS101,,Intro to Data,37.0,59,2,0.0,Yes,2.0,desktop,22:15,25%,Casual Learner,Slow Learner
+U0124,DS101,,Python Basics,100.0,0,1,82.0,No,5.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0121,DA201,2024-06-04,Intro Analytics,,67,3,92.0,No,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0082,DA201,,Intro Analytics,,0,3,0.0,Yes,2.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0033,DA201,,EDA Concepts,13.0,0,0,0.0,No,3.0,mobile,22:15,Started,Casual Learner,Slow Learner
+U0063,DA201,,EDA Concepts,,0,1,0.0,Yes,2.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0131,ML301,,ML Intro,,86,3,61.0,Yes,2.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0158,DS101,,Python Basics,,0,2,79.0,No,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0227,DA201,,Intro Analytics,55.0,0,2,0.0,No,5.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0018,DA201,,Intro Analytics,100.0,90,0,50.0,Yes,2.0,desktop,9 PM,Completed,Power Learner,Slow Learner
+U0233,ML301,2024-06-25,ML Intro,37.0,0,0,0.0,No,2.0,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0057,DS101,,Intro to Data,23.0,86,3,47.0,Yes,5.0,laptop,9 PM,Started,Casual Learner,Slow Learner
+U0145,DS101,,Intro to Data,36.0,0,0,0.0,Yes,3.0,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0087,DS101,,SQL Basics,,27,1,0.0,No,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0115,ML301,,ML Intro,63.0,0,3,0.0,No,5.0,mobile,14:20,50%,Casual Learner,Slow Learner
+U0093,DA201,,Intro Analytics,,163,1,77.0,Yes,,desktop,22:15,Enrolled,Power Learner,Binge Learner
+U0166,ML301,2024-06-22,Regression,88.0,157,0,0.0,Yes,2.0,mobile,14:20,75%,Power Learner,Binge Learner
+U0182,ML301,,Model Evaluation,,69,2,80.0,Yes,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0134,DS101,,Python Basics,,27,3,48.0,Yes,2.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0256,DA201,,Dashboards,62.0,161,2,0.0,No,5.0,desktop,22:15,50%,Power Learner,Binge Learner
+U0285,ML301,,Model Evaluation,,0,1,0.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0224,DS101,,SQL Basics,81.0,122,0,0.0,No,,mobile,9 PM,75%,Power Learner,Binge Learner
+U0093,DS101,,Python Basics,,0,3,0.0,No,5.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0014,DA201,2024-06-22,Dashboards,90.0,0,2,0.0,Yes,3.0,desktop,14:20,75%,Casual Learner,Slow Learner
+U0138,ML301,,Model Evaluation,1.0,0,1,36.0,No,,mobile,14:20,Started,Casual Learner,Slow Learner
+U0048,DA201,2024-06-06,EDA Concepts,,0,1,79.0,No,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0153,DA201,,EDA Concepts,23.0,0,2,0.0,No,3.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0138,ML301,2024-06-14,Model Evaluation,98.0,0,3,0.0,Yes,4.0,desktop,14:20,75%,Casual Learner,Slow Learner
+U0115,ML301,2024-06-23,Model Evaluation,,79,3,40.0,No,1.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0128,ML301,,Regression,,0,3,0.0,No,5.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0182,DA201,,Dashboards,,174,1,53.0,Yes,,desktop,9 PM,Enrolled,Power Learner,Binge Learner
+U0161,ML301,,Model Evaluation,100.0,0,1,0.0,No,5.0,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0274,DS101,2024-06-13,Intro to Data,,172,3,81.0,No,4.0,laptop,9 PM,Enrolled,Power Learner,Binge Learner
+U0203,DA201,2024-06-05,Intro Analytics,,0,1,0.0,No,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0224,ML301,2024-06-07,Model Evaluation,67.0,42,3,0.0,Yes,1.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0242,DS101,2024-06-19,SQL Basics,41.0,150,0,0.0,Yes,5.0,desktop,14:20,25%,Power Learner,Binge Learner
+U0254,ML301,,Model Evaluation,,129,3,95.0,Yes,5.0,mobile,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0217,ML301,2024-06-18,Regression,58.0,0,3,74.0,No,,mobile,9 PM,50%,Casual Learner,Slow Learner
+U0099,DA201,2024-06-15,EDA Concepts,,155,3,46.0,No,3.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0083,ML301,,ML Intro,12.0,0,1,50.0,Yes,3.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0121,DS101,2024-06-02,Python Basics,81.0,0,1,0.0,Yes,2.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0117,DS101,,Python Basics,56.0,0,2,0.0,Yes,3.0,desktop,10:30 AM,50%,Casual Learner,Slow Learner
+U0055,ML301,2024-06-26,Model Evaluation,,0,1,0.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0051,DS101,,Python Basics,,56,3,0.0,No,2.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0044,DA201,,EDA Concepts,,43,1,47.0,No,3.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0016,DA201,2024-06-25,Intro Analytics,,91,3,51.0,Yes,3.0,mobile,22:15,Enrolled,Power Learner,Slow Learner
+U0295,DS101,,Python Basics,65.0,107,2,0.0,No,4.0,laptop,22:15,50%,Power Learner,Slow Learner
+U0207,DA201,,Dashboards,100.0,171,1,0.0,Yes,4.0,desktop,14:20,Completed,Power Learner,Binge Learner
+U0065,ML301,2024-06-10,Model Evaluation,13.0,138,1,0.0,No,1.0,desktop,14:20,Started,Power Learner,Binge Learner
+U0259,DS101,,Python Basics,56.0,0,0,87.0,Yes,3.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0298,ML301,,Model Evaluation,49.0,81,1,0.0,Yes,2.0,laptop,22:15,25%,Casual Learner,Slow Learner
+U0185,DA201,,Intro Analytics,98.0,0,0,0.0,No,1.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0190,ML301,,Model Evaluation,91.0,154,3,86.0,No,1.0,mobile,22:15,75%,Power Learner,Binge Learner
+U0249,ML301,,Regression,,121,0,50.0,Yes,4.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0062,DA201,2024-06-10,Dashboards,,100,2,68.0,No,,mobile,22:15,Enrolled,Power Learner,Slow Learner
+U0216,DS101,,SQL Basics,,0,0,0.0,Yes,3.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0290,DA201,,EDA Concepts,,40,3,0.0,No,,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0199,DS101,,SQL Basics,1.0,0,1,33.0,Yes,5.0,laptop,10:30 AM,Started,Casual Learner,Slow Learner
+U0099,ML301,2024-06-19,Model Evaluation,38.0,0,0,0.0,No,1.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0044,ML301,,Model Evaluation,1.0,10,3,53.0,Yes,4.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0132,DS101,,Intro to Data,33.0,0,2,0.0,No,3.0,mobile,10:30 AM,25%,Casual Learner,Slow Learner
+U0167,DS101,2024-06-23,Intro to Data,66.0,30,1,82.0,No,3.0,mobile,10:30 AM,50%,Casual Learner,Slow Learner
+U0104,DS101,2024-06-19,Python Basics,100.0,34,0,70.0,No,,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0209,ML301,2024-06-30,ML Intro,,0,2,82.0,Yes,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0073,DA201,2024-06-06,Dashboards,98.0,0,3,0.0,Yes,,desktop,9 PM,75%,Casual Learner,Slow Learner
+U0129,ML301,,Regression,44.0,0,0,0.0,No,5.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0285,DA201,,EDA Concepts,100.0,179,2,87.0,Yes,5.0,desktop,9 PM,Completed,Power Learner,Binge Learner
+U0108,DA201,2024-06-11,Dashboards,,160,0,0.0,No,4.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0276,DS101,2024-06-21,Python Basics,0.0,0,2,78.0,No,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0237,DA201,2024-06-15,Intro Analytics,,76,1,41.0,Yes,1.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0019,DA201,,EDA Concepts,,55,0,65.0,Yes,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0034,ML301,2024-06-24,ML Intro,22.0,0,2,0.0,No,5.0,laptop,14:20,Started,Casual Learner,Slow Learner
+U0002,DA201,,Dashboards,3.0,115,2,45.0,No,2.0,laptop,10:30 AM,Started,Power Learner,Slow Learner
+U0115,DS101,,SQL Basics,100.0,6,1,0.0,Yes,5.0,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0039,DS101,,Intro to Data,,0,0,91.0,Yes,4.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0127,DS101,,SQL Basics,3.0,0,0,0.0,No,4.0,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0032,DS101,,SQL Basics,,20,0,68.0,Yes,,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0151,DA201,,EDA Concepts,,0,3,79.0,No,4.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0174,ML301,2024-06-26,Model Evaluation,100.0,0,0,0.0,Yes,4.0,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0261,DA201,,EDA Concepts,,0,0,0.0,No,4.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0160,ML301,2024-06-25,Model Evaluation,27.0,84,2,0.0,Yes,,mobile,10:30 AM,25%,Casual Learner,Slow Learner
+U0217,DA201,,Intro Analytics,,0,3,89.0,No,4.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0169,DS101,2024-06-15,Intro to Data,,0,1,0.0,Yes,3.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0106,DA201,2024-06-27,Intro Analytics,,23,0,0.0,No,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0023,DS101,,Intro to Data,,0,2,0.0,Yes,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0052,DS101,,Python Basics,18.0,58,3,60.0,No,5.0,mobile,14:20,Started,Casual Learner,Slow Learner
+U0034,DS101,2024-06-29,Intro to Data,,141,2,70.0,Yes,,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0275,DA201,2024-06-11,Intro Analytics,3.0,37,1,40.0,Yes,1.0,laptop,14:20,Started,Casual Learner,Slow Learner
+U0261,DA201,,EDA Concepts,35.0,100,3,90.0,No,5.0,laptop,10:30 AM,25%,Power Learner,Slow Learner
+U0107,DS101,2024-06-15,Intro to Data,,83,3,50.0,No,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0044,DA201,,EDA Concepts,,124,3,87.0,No,3.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0163,DA201,2024-06-01,EDA Concepts,,0,2,40.0,Yes,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0061,DS101,,SQL Basics,41.0,55,2,68.0,Yes,5.0,laptop,22:15,25%,Casual Learner,Slow Learner
+U0279,DA201,,Intro Analytics,62.0,108,0,0.0,No,1.0,mobile,22:15,50%,Power Learner,Slow Learner
+U0243,DS101,,Python Basics,100.0,0,2,54.0,No,1.0,desktop,14:20,Completed,Casual Learner,Slow Learner
+U0286,DS101,,SQL Basics,22.0,7,2,0.0,No,3.0,desktop,9 PM,Started,Casual Learner,Slow Learner
+U0167,ML301,2024-06-19,ML Intro,,89,3,56.0,Yes,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0244,DS101,,SQL Basics,,0,1,34.0,Yes,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0198,DA201,,Intro Analytics,7.0,19,0,51.0,No,3.0,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0067,ML301,,Regression,7.0,0,1,69.0,No,1.0,laptop,9 PM,Started,Casual Learner,Slow Learner
+U0104,ML301,,Model Evaluation,,0,3,38.0,Yes,4.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0236,DA201,,Dashboards,13.0,170,2,68.0,Yes,3.0,mobile,22:15,Started,Power Learner,Binge Learner
+U0222,DA201,,EDA Concepts,,0,1,50.0,No,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0253,DA201,,Dashboards,,134,3,0.0,No,1.0,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0237,DS101,,Intro to Data,100.0,92,1,0.0,Yes,2.0,mobile,22:15,Completed,Power Learner,Slow Learner
+U0168,ML301,,Model Evaluation,,0,3,47.0,No,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0052,DS101,,SQL Basics,,0,2,49.0,No,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0273,DS101,2024-06-23,SQL Basics,16.0,83,0,0.0,No,1.0,mobile,9 PM,Started,Casual Learner,Slow Learner
+U0123,DS101,,Intro to Data,,0,0,0.0,Yes,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0213,ML301,,ML Intro,,0,3,0.0,Yes,1.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0166,DS101,,Intro to Data,,0,3,0.0,No,5.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0023,DS101,,Intro to Data,,0,2,42.0,No,5.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0090,ML301,,Model Evaluation,,0,3,0.0,Yes,1.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0159,DS101,2024-06-14,Python Basics,,40,3,0.0,Yes,3.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0122,ML301,,Model Evaluation,,76,0,83.0,Yes,1.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0125,DS101,,Python Basics,,160,2,53.0,Yes,,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0099,DS101,2024-06-05,Python Basics,,0,1,0.0,No,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0085,ML301,,ML Intro,,82,3,55.0,No,,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0194,DS101,,SQL Basics,100.0,44,0,78.0,Yes,2.0,laptop,22:15,Completed,Casual Learner,Slow Learner
+U0284,ML301,,ML Intro,100.0,121,3,0.0,No,1.0,desktop,22:15,Completed,Power Learner,Binge Learner
+U0080,DS101,,Intro to Data,85.0,108,3,77.0,No,2.0,laptop,10:30 AM,75%,Power Learner,Slow Learner
+U0210,DS101,,Intro to Data,,116,2,95.0,No,5.0,mobile,14:20,Enrolled,Power Learner,Slow Learner
+U0218,ML301,,ML Intro,0.0,0,1,63.0,Yes,2.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0007,DS101,,Intro to Data,88.0,0,1,0.0,No,2.0,desktop,14:20,75%,Casual Learner,Slow Learner
+U0158,ML301,,Regression,,167,1,0.0,No,5.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0087,DA201,2024-06-04,Intro Analytics,96.0,172,3,0.0,No,1.0,mobile,22:15,75%,Power Learner,Binge Learner
+U0250,DS101,2024-07-01,Python Basics,,0,0,0.0,No,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0086,DS101,,SQL Basics,21.0,21,0,60.0,No,5.0,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0032,DA201,,Intro Analytics,,0,3,64.0,No,2.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0173,DA201,,Dashboards,,97,3,37.0,No,,mobile,14:20,Enrolled,Power Learner,Slow Learner
+U0206,ML301,,ML Intro,21.0,68,3,90.0,Yes,,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0185,DS101,,Python Basics,,160,3,40.0,No,3.0,mobile,14:20,Enrolled,Power Learner,Binge Learner
+U0151,ML301,2024-06-23,ML Intro,,37,0,68.0,Yes,3.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0277,DS101,2024-06-07,Intro to Data,,0,1,71.0,No,1.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0064,ML301,,ML Intro,,0,0,73.0,No,5.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0120,DS101,,SQL Basics,,27,1,44.0,Yes,2.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0160,DS101,2024-06-18,Python Basics,89.0,86,1,0.0,No,,laptop,14:20,75%,Casual Learner,Slow Learner
+U0162,DS101,2024-06-27,SQL Basics,100.0,42,1,34.0,No,4.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0294,DA201,2024-06-27,Dashboards,100.0,0,2,0.0,Yes,5.0,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0250,ML301,,Regression,,145,2,84.0,No,3.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0271,ML301,,Regression,39.0,0,2,36.0,No,5.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0227,ML301,2024-06-10,Regression,,0,2,0.0,No,3.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0050,DA201,2024-06-06,EDA Concepts,20.0,156,1,0.0,Yes,,mobile,14:20,Started,Power Learner,Binge Learner
+U0251,DA201,2024-06-20,Dashboards,,123,2,86.0,Yes,,mobile,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0063,DA201,,Dashboards,,155,2,0.0,No,3.0,desktop,9 PM,Enrolled,Power Learner,Binge Learner
+U0293,DS101,2024-06-11,Intro to Data,37.0,10,3,0.0,Yes,5.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0093,DS101,,Python Basics,,0,1,41.0,Yes,,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0187,ML301,,ML Intro,,0,2,0.0,No,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0276,ML301,2024-06-23,ML Intro,,0,1,0.0,Yes,4.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0184,DA201,,Intro Analytics,,145,2,0.0,No,3.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0218,ML301,2024-06-18,ML Intro,8.0,0,2,0.0,No,1.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0195,DS101,2024-06-08,Python Basics,,0,3,38.0,Yes,2.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0075,DS101,2024-06-01,SQL Basics,,0,0,52.0,No,,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0293,DA201,,Dashboards,,48,3,53.0,No,3.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0133,DS101,,Python Basics,,41,2,36.0,Yes,5.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0235,DS101,,SQL Basics,100.0,75,1,0.0,No,3.0,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0041,DS101,2024-06-08,Python Basics,,26,3,31.0,Yes,3.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0208,DS101,,Python Basics,0.0,141,1,35.0,Yes,5.0,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0090,DS101,2024-06-27,SQL Basics,,113,3,51.0,Yes,2.0,mobile,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0149,DA201,,EDA Concepts,,166,1,0.0,No,4.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0183,DS101,,Python Basics,66.0,0,2,53.0,No,,mobile,14:20,50%,Casual Learner,Slow Learner
+U0252,DS101,,Intro to Data,29.0,36,0,49.0,Yes,3.0,desktop,9 PM,25%,Casual Learner,Slow Learner
+U0154,DA201,2024-06-29,EDA Concepts,,117,1,47.0,No,,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0057,DS101,2024-06-02,SQL Basics,91.0,0,1,55.0,No,,desktop,14:20,75%,Casual Learner,Slow Learner
+U0282,DA201,2024-06-23,Dashboards,73.0,133,1,0.0,Yes,1.0,mobile,9 PM,50%,Power Learner,Binge Learner
+U0257,DS101,2024-06-08,Python Basics,77.0,0,3,91.0,No,3.0,mobile,14:20,75%,Casual Learner,Slow Learner
+U0127,ML301,,ML Intro,,0,2,61.0,Yes,3.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0097,ML301,2024-06-21,Model Evaluation,,38,0,0.0,Yes,3.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0047,DS101,,SQL Basics,,61,3,0.0,No,5.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0057,DA201,,EDA Concepts,,0,1,0.0,Yes,5.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0147,DA201,,EDA Concepts,15.0,52,3,76.0,No,,mobile,10:30 AM,Started,Casual Learner,Slow Learner
+U0283,DS101,,SQL Basics,82.0,65,1,0.0,Yes,1.0,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0022,ML301,2024-06-27,Model Evaluation,39.0,0,2,68.0,Yes,4.0,mobile,10:30 AM,25%,Casual Learner,Slow Learner
+U0066,DS101,,SQL Basics,54.0,98,0,0.0,No,3.0,laptop,10:30 AM,50%,Power Learner,Slow Learner
+U0086,ML301,2024-06-23,Regression,,0,1,80.0,Yes,1.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0288,DA201,,EDA Concepts,,0,1,31.0,No,2.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0138,ML301,2024-06-06,ML Intro,,0,1,0.0,No,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0274,DS101,,Intro to Data,84.0,26,1,82.0,No,,mobile,9 PM,75%,Casual Learner,Slow Learner
+U0113,ML301,,Regression,,102,1,0.0,No,2.0,mobile,14:20,Enrolled,Power Learner,Slow Learner
+U0080,DA201,,Intro Analytics,100.0,42,0,0.0,No,1.0,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0292,DA201,,Dashboards,,0,1,0.0,Yes,1.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0126,DA201,2024-06-13,Dashboards,,0,3,0.0,Yes,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0128,DS101,,SQL Basics,,32,0,0.0,No,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0158,DA201,2024-06-05,EDA Concepts,4.0,0,0,0.0,No,,laptop,14:20,Started,Casual Learner,Slow Learner
+U0073,DS101,2024-06-01,Intro to Data,99.0,42,2,58.0,Yes,3.0,mobile,10:30 AM,75%,Casual Learner,Slow Learner
+U0115,DS101,2024-06-12,SQL Basics,,0,0,0.0,No,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0218,DS101,,Python Basics,63.0,31,3,77.0,Yes,,mobile,22:15,50%,Casual Learner,Slow Learner
+U0164,DS101,,SQL Basics,,33,2,0.0,No,1.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0181,DA201,,EDA Concepts,95.0,0,3,83.0,No,4.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0197,DS101,,Python Basics,,65,0,0.0,No,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0057,DS101,2024-06-12,SQL Basics,65.0,41,1,0.0,Yes,5.0,mobile,10:30 AM,50%,Casual Learner,Slow Learner
+U0074,DA201,,Dashboards,98.0,0,0,0.0,Yes,1.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0041,DS101,,Intro to Data,,51,1,68.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0007,DA201,2024-06-05,Intro Analytics,,0,0,80.0,No,4.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0117,DA201,2024-06-09,Intro Analytics,,59,0,58.0,Yes,5.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0240,DA201,,EDA Concepts,93.0,0,2,0.0,No,,mobile,10:30 AM,75%,Casual Learner,Slow Learner
+U0186,ML301,2024-06-01,Regression,,0,0,0.0,No,1.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0017,DS101,,SQL Basics,1.0,0,2,41.0,Yes,2.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0257,DS101,,SQL Basics,,0,2,0.0,Yes,,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0245,ML301,2024-06-10,ML Intro,28.0,0,1,0.0,Yes,4.0,laptop,9 PM,25%,Casual Learner,Slow Learner
+U0230,DS101,,SQL Basics,,179,1,0.0,Yes,4.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0008,DS101,2024-06-18,SQL Basics,,121,1,0.0,Yes,2.0,laptop,9 PM,Enrolled,Power Learner,Binge Learner
+U0181,DS101,,Intro to Data,100.0,126,3,0.0,No,,desktop,9 PM,Completed,Power Learner,Binge Learner
+U0206,DA201,,Dashboards,23.0,98,2,40.0,No,2.0,mobile,10:30 AM,Started,Power Learner,Slow Learner
+U0126,ML301,2024-06-01,Model Evaluation,16.0,0,3,0.0,No,3.0,mobile,9 PM,Started,Casual Learner,Slow Learner
+U0239,DA201,,Dashboards,,0,3,0.0,No,2.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0176,ML301,,Regression,,76,0,49.0,Yes,5.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0291,DS101,,Python Basics,5.0,115,1,0.0,Yes,5.0,desktop,9 PM,Started,Power Learner,Slow Learner
+U0130,ML301,2024-06-03,ML Intro,7.0,0,2,87.0,Yes,5.0,desktop,22:15,Started,Casual Learner,Slow Learner
+U0028,DS101,,SQL Basics,,94,3,0.0,No,2.0,laptop,14:20,Enrolled,Power Learner,Slow Learner
+U0006,ML301,2024-06-07,Model Evaluation,27.0,175,0,49.0,Yes,3.0,desktop,10:30 AM,25%,Power Learner,Binge Learner
+U0209,DA201,2024-06-24,Dashboards,,167,0,0.0,Yes,3.0,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0194,DS101,2024-06-07,SQL Basics,0.0,0,2,0.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0211,DA201,,EDA Concepts,99.0,0,3,84.0,Yes,4.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0278,DA201,,EDA Concepts,100.0,0,0,0.0,Yes,4.0,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0255,ML301,,Model Evaluation,15.0,0,2,0.0,Yes,3.0,laptop,14:20,Started,Casual Learner,Slow Learner
+U0059,DS101,2024-07-01,SQL Basics,79.0,110,0,0.0,No,2.0,desktop,9 PM,75%,Power Learner,Slow Learner
+U0213,ML301,,ML Intro,,0,2,70.0,Yes,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0285,DA201,,Intro Analytics,,152,1,0.0,No,2.0,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0224,DS101,2024-06-23,Intro to Data,,166,2,50.0,Yes,,mobile,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0224,DS101,,Python Basics,,0,3,0.0,No,5.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0123,ML301,2024-06-10,ML Intro,52.0,0,2,0.0,Yes,5.0,laptop,10:30 AM,50%,Casual Learner,Slow Learner
+U0057,DA201,2024-06-04,Dashboards,26.0,0,0,39.0,No,1.0,desktop,10:30 AM,25%,Casual Learner,Slow Learner
+U0252,DS101,,SQL Basics,,180,3,70.0,Yes,1.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0092,ML301,,Model Evaluation,,92,3,0.0,No,,mobile,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0275,DS101,2024-06-17,Python Basics,45.0,0,0,0.0,Yes,,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0141,DA201,2024-07-01,Intro Analytics,79.0,124,3,95.0,Yes,2.0,mobile,22:15,75%,Power Learner,Binge Learner
+U0144,DA201,,Intro Analytics,,57,3,87.0,No,2.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0197,DA201,,Intro Analytics,,0,0,95.0,No,2.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0204,DS101,,Intro to Data,,0,0,57.0,No,1.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0005,DA201,,Dashboards,,124,1,38.0,No,4.0,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0053,ML301,,Regression,9.0,179,2,0.0,Yes,,desktop,14:20,Started,Power Learner,Binge Learner
+U0024,DA201,2024-06-04,EDA Concepts,,158,3,0.0,No,,laptop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0237,DA201,,Intro Analytics,,0,0,0.0,No,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0163,DA201,,EDA Concepts,70.0,0,3,68.0,No,5.0,mobile,9 PM,50%,Casual Learner,Slow Learner
+U0053,DS101,2024-06-02,Intro to Data,,87,1,0.0,Yes,5.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0027,DA201,2024-06-04,Intro Analytics,,72,3,0.0,Yes,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0065,DA201,,Intro Analytics,95.0,0,1,91.0,No,2.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0048,DA201,2024-06-23,EDA Concepts,,0,0,39.0,Yes,1.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0240,DA201,2024-06-16,Intro Analytics,,156,2,0.0,Yes,1.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0198,DA201,2024-06-17,Dashboards,,22,3,51.0,Yes,1.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0057,DS101,,Intro to Data,37.0,12,3,75.0,Yes,4.0,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0221,DS101,,Intro to Data,100.0,18,2,0.0,Yes,5.0,desktop,14:20,Completed,Casual Learner,Slow Learner
+U0100,DA201,2024-06-13,Intro Analytics,60.0,137,0,0.0,Yes,1.0,mobile,10:30 AM,50%,Power Learner,Binge Learner
+U0019,ML301,2024-06-08,Regression,15.0,62,3,0.0,Yes,5.0,desktop,14:20,Started,Casual Learner,Slow Learner
+U0106,DS101,,Intro to Data,63.0,0,1,94.0,No,5.0,mobile,22:15,50%,Casual Learner,Slow Learner
+U0162,ML301,2024-06-06,ML Intro,75.0,0,3,84.0,Yes,1.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0088,ML301,,ML Intro,,0,3,0.0,Yes,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0269,ML301,2024-06-25,ML Intro,,82,3,92.0,No,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0187,DA201,,Intro Analytics,67.0,137,0,0.0,Yes,3.0,mobile,22:15,50%,Power Learner,Binge Learner
+U0183,DA201,,Intro Analytics,100.0,0,1,0.0,No,5.0,laptop,14:20,Completed,Casual Learner,Slow Learner
+U0270,DS101,,SQL Basics,79.0,105,2,0.0,Yes,4.0,laptop,9 PM,75%,Power Learner,Slow Learner
+U0063,DA201,,EDA Concepts,,7,1,0.0,No,4.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0156,DA201,,EDA Concepts,0.0,0,2,0.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0181,ML301,,ML Intro,25.0,0,0,0.0,Yes,3.0,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0149,DS101,,Intro to Data,53.0,113,0,63.0,No,1.0,laptop,14:20,50%,Power Learner,Slow Learner
+U0166,ML301,2024-06-22,ML Intro,,0,2,0.0,No,4.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0193,DA201,,Intro Analytics,100.0,133,3,75.0,No,3.0,desktop,14:20,Completed,Power Learner,Binge Learner
+U0015,ML301,,ML Intro,,162,1,95.0,Yes,4.0,laptop,9 PM,Enrolled,Power Learner,Binge Learner
+U0028,DA201,,Intro Analytics,0.0,137,0,0.0,No,5.0,mobile,9 PM,Enrolled,Power Learner,Binge Learner
+U0050,DA201,,Dashboards,,0,1,48.0,Yes,1.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0160,ML301,,ML Intro,,0,1,0.0,Yes,1.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0013,ML301,2024-06-13,Regression,21.0,108,1,60.0,No,5.0,laptop,10:30 AM,Started,Power Learner,Slow Learner
+U0222,DS101,2024-06-01,Python Basics,,0,3,91.0,No,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0189,ML301,,Regression,17.0,111,1,33.0,No,,laptop,14:20,Started,Power Learner,Slow Learner
+U0006,ML301,,Regression,,0,3,88.0,Yes,1.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0179,ML301,,Model Evaluation,,0,2,73.0,Yes,2.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0035,ML301,,Regression,36.0,38,2,0.0,Yes,,mobile,22:15,25%,Casual Learner,Slow Learner
+U0050,ML301,,ML Intro,100.0,0,0,52.0,No,,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0059,DS101,,Python Basics,,49,0,87.0,Yes,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0101,DA201,,EDA Concepts,,0,3,0.0,Yes,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0018,DS101,,Intro to Data,8.0,52,1,56.0,No,2.0,laptop,22:15,Started,Casual Learner,Slow Learner
+U0035,DA201,,EDA Concepts,,37,0,45.0,Yes,,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0012,DS101,,SQL Basics,89.0,0,2,0.0,No,3.0,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0280,ML301,,ML Intro,,13,3,0.0,No,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0281,ML301,,Regression,,0,0,0.0,No,4.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0283,DA201,,Intro Analytics,,14,1,74.0,No,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0029,DS101,,Intro to Data,,146,0,79.0,Yes,3.0,desktop,22:15,Enrolled,Power Learner,Binge Learner
+U0060,DA201,,Intro Analytics,84.0,54,3,0.0,Yes,,laptop,10:30 AM,75%,Casual Learner,Slow Learner
+U0117,DA201,,Dashboards,,0,0,0.0,No,1.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0161,DA201,2024-06-21,Dashboards,,160,3,0.0,Yes,2.0,laptop,22:15,Enrolled,Power Learner,Binge Learner
+U0254,ML301,,Model Evaluation,46.0,82,2,61.0,No,5.0,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0028,DA201,,EDA Concepts,100.0,0,1,59.0,Yes,,desktop,22:15,Completed,Casual Learner,Slow Learner
+U0019,DS101,,Python Basics,,10,0,64.0,No,2.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0143,ML301,2024-06-16,Regression,87.0,0,1,56.0,Yes,5.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0157,DS101,,Python Basics,0.0,0,0,73.0,No,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0284,DA201,,Dashboards,63.0,113,1,78.0,Yes,1.0,mobile,9 PM,50%,Power Learner,Slow Learner
+U0141,DS101,,Intro to Data,65.0,151,0,65.0,No,5.0,desktop,10:30 AM,50%,Power Learner,Binge Learner
+U0064,DA201,,Dashboards,,118,0,0.0,No,,desktop,14:20,Enrolled,Power Learner,Slow Learner
+U0285,DS101,,SQL Basics,10.0,161,0,0.0,No,2.0,desktop,14:20,Started,Power Learner,Binge Learner
+U0066,DS101,2024-06-06,Python Basics,,0,1,94.0,No,,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0032,ML301,2024-06-09,Regression,,0,2,0.0,No,,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0122,DS101,,SQL Basics,,169,2,0.0,No,4.0,desktop,9 PM,Enrolled,Power Learner,Binge Learner
+U0209,ML301,,Regression,,0,2,0.0,Yes,4.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0262,ML301,,Model Evaluation,,0,1,0.0,Yes,1.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0276,ML301,,ML Intro,3.0,173,2,0.0,No,1.0,desktop,22:15,Started,Power Learner,Binge Learner
+U0186,DS101,,SQL Basics,,118,2,40.0,Yes,2.0,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0230,DA201,2024-06-19,Intro Analytics,52.0,0,2,66.0,No,,mobile,14:20,50%,Casual Learner,Slow Learner
+U0216,ML301,,ML Intro,,0,1,45.0,No,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0065,DS101,,SQL Basics,,38,3,0.0,No,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0151,DS101,,SQL Basics,,23,3,82.0,No,2.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0094,ML301,,Model Evaluation,,6,3,78.0,No,1.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0050,DS101,,SQL Basics,2.0,78,3,0.0,Yes,,mobile,14:20,Started,Casual Learner,Slow Learner
+U0266,DA201,,Dashboards,,93,1,45.0,No,3.0,desktop,22:15,Enrolled,Power Learner,Slow Learner
+U0087,DA201,2024-06-20,EDA Concepts,49.0,0,1,0.0,Yes,4.0,mobile,22:15,25%,Casual Learner,Slow Learner
+U0004,DA201,2024-06-12,Intro Analytics,62.0,0,3,0.0,Yes,3.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0135,DS101,,Intro to Data,19.0,0,0,0.0,No,2.0,desktop,10:30 AM,Started,Casual Learner,Slow Learner
+U0162,DS101,,SQL Basics,,0,0,0.0,No,1.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0241,DS101,2024-06-27,SQL Basics,100.0,0,0,0.0,No,,desktop,22:15,Completed,Casual Learner,Slow Learner
+U0092,DS101,,SQL Basics,,168,3,53.0,Yes,2.0,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0201,ML301,,Regression,,0,2,83.0,No,1.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0091,DA201,2024-06-22,EDA Concepts,78.0,37,3,0.0,Yes,2.0,desktop,22:15,75%,Casual Learner,Slow Learner
+U0210,DS101,,Python Basics,56.0,110,3,84.0,No,,desktop,14:20,50%,Power Learner,Slow Learner
+U0113,DA201,2024-06-27,Dashboards,68.0,0,1,0.0,No,1.0,laptop,10:30 AM,50%,Casual Learner,Slow Learner
+U0011,DA201,,Intro Analytics,75.0,0,0,56.0,Yes,1.0,laptop,14:20,75%,Casual Learner,Slow Learner
+U0118,DA201,,Intro Analytics,74.0,0,0,0.0,Yes,4.0,desktop,14:20,50%,Casual Learner,Slow Learner
+U0022,DS101,2024-06-10,SQL Basics,,13,0,78.0,Yes,5.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0040,DS101,,Python Basics,,0,0,0.0,No,2.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0155,DA201,2024-06-07,EDA Concepts,57.0,101,3,0.0,No,4.0,desktop,14:20,50%,Power Learner,Slow Learner
+U0146,ML301,2024-06-17,Model Evaluation,,132,2,43.0,Yes,4.0,mobile,14:20,Enrolled,Power Learner,Binge Learner
+U0119,DA201,,EDA Concepts,17.0,0,0,0.0,Yes,3.0,laptop,22:15,Started,Casual Learner,Slow Learner
+U0043,DS101,,SQL Basics,,131,3,69.0,Yes,,desktop,14:20,Enrolled,Power Learner,Binge Learner
+U0003,DA201,,Dashboards,100.0,0,2,89.0,Yes,,desktop,10:30 AM,Completed,Casual Learner,Slow Learner
+U0193,DS101,,Intro to Data,,55,0,34.0,No,1.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0072,ML301,,Model Evaluation,0.0,35,2,64.0,No,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0149,ML301,,Model Evaluation,85.0,125,1,0.0,Yes,4.0,desktop,10:30 AM,75%,Power Learner,Binge Learner
+U0163,DA201,,Intro Analytics,,0,1,42.0,No,,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0081,DS101,,SQL Basics,47.0,0,1,65.0,No,4.0,desktop,9 PM,25%,Casual Learner,Slow Learner
+U0207,DA201,,Dashboards,,0,0,57.0,Yes,2.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0065,ML301,,Model Evaluation,74.0,162,1,0.0,Yes,1.0,mobile,22:15,50%,Power Learner,Binge Learner
+U0074,DS101,2024-06-28,SQL Basics,,0,3,84.0,No,2.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0124,ML301,,Regression,100.0,84,0,0.0,No,5.0,mobile,14:20,Completed,Casual Learner,Slow Learner
+U0287,DA201,,EDA Concepts,20.0,171,1,33.0,No,5.0,desktop,14:20,Started,Power Learner,Binge Learner
+U0110,ML301,2024-06-29,Model Evaluation,87.0,0,1,86.0,Yes,,laptop,9 PM,75%,Casual Learner,Slow Learner
+U0169,DS101,,SQL Basics,,160,0,65.0,No,,desktop,9 PM,Enrolled,Power Learner,Binge Learner
+U0030,ML301,,ML Intro,100.0,0,3,0.0,No,,laptop,22:15,Completed,Casual Learner,Slow Learner
+U0091,DS101,2024-06-14,Intro to Data,4.0,0,2,42.0,Yes,5.0,laptop,10:30 AM,Started,Casual Learner,Slow Learner
+U0171,ML301,,Regression,33.0,0,3,0.0,Yes,1.0,laptop,22:15,25%,Casual Learner,Slow Learner
+U0137,DS101,2024-06-15,Intro to Data,,134,1,30.0,No,4.0,desktop,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0175,DA201,,Dashboards,12.0,0,0,0.0,Yes,2.0,laptop,10:30 AM,Started,Casual Learner,Slow Learner
+U0087,DS101,,Intro to Data,,68,1,46.0,Yes,3.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0143,DS101,,Python Basics,,0,1,67.0,No,2.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0182,ML301,,Regression,,14,1,56.0,No,5.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0176,ML301,,Model Evaluation,,0,2,57.0,No,,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0244,DS101,,SQL Basics,85.0,0,2,43.0,Yes,1.0,desktop,14:20,75%,Casual Learner,Slow Learner
+U0172,DA201,2024-06-29,Dashboards,37.0,0,3,0.0,No,4.0,desktop,14:20,25%,Casual Learner,Slow Learner
+U0205,DA201,,Intro Analytics,85.0,128,2,0.0,Yes,3.0,desktop,9 PM,75%,Power Learner,Binge Learner
+U0296,DA201,2024-06-01,Dashboards,32.0,0,1,46.0,Yes,,desktop,22:15,25%,Casual Learner,Slow Learner
+U0178,DA201,,EDA Concepts,,0,2,0.0,Yes,1.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0047,ML301,,ML Intro,,0,2,42.0,No,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0193,DA201,2024-06-08,Dashboards,,0,3,71.0,No,4.0,desktop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0178,DA201,,Dashboards,,0,1,77.0,No,4.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0040,ML301,,ML Intro,,59,3,41.0,No,5.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0078,DA201,,EDA Concepts,,71,1,50.0,Yes,3.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0052,ML301,2024-06-26,Regression,31.0,37,3,31.0,No,3.0,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0218,DA201,2024-06-21,Dashboards,100.0,126,2,0.0,No,4.0,desktop,10:30 AM,Completed,Power Learner,Binge Learner
+U0077,DS101,,SQL Basics,,136,3,36.0,No,,mobile,14:20,Enrolled,Power Learner,Binge Learner
+U0236,DA201,,Intro Analytics,84.0,113,2,33.0,Yes,2.0,desktop,14:20,75%,Power Learner,Slow Learner
+U0009,DA201,,EDA Concepts,,0,3,0.0,Yes,4.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0075,ML301,,Regression,78.0,0,3,0.0,No,2.0,mobile,22:15,75%,Casual Learner,Slow Learner
+U0052,DA201,2024-06-24,Dashboards,76.0,113,0,53.0,Yes,3.0,mobile,22:15,75%,Power Learner,Slow Learner
+U0293,DA201,,EDA Concepts,,100,1,85.0,Yes,2.0,laptop,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0205,DS101,,Python Basics,0.0,0,3,46.0,No,3.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0050,DS101,,Intro to Data,,21,3,83.0,No,3.0,laptop,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0176,DA201,,EDA Concepts,28.0,0,1,79.0,No,,laptop,10:30 AM,25%,Casual Learner,Slow Learner
+U0250,ML301,2024-06-03,Regression,84.0,79,3,0.0,Yes,4.0,laptop,22:15,75%,Casual Learner,Slow Learner
+U0181,ML301,2024-06-14,Regression,62.0,65,1,0.0,Yes,3.0,mobile,22:15,50%,Casual Learner,Slow Learner
+U0057,ML301,2024-06-06,Regression,92.0,0,3,65.0,No,5.0,mobile,9 PM,75%,Casual Learner,Slow Learner
+U0258,ML301,2024-06-13,Model Evaluation,93.0,123,3,0.0,No,2.0,mobile,9 PM,75%,Power Learner,Binge Learner
+U0238,ML301,2024-06-22,ML Intro,88.0,112,1,0.0,Yes,4.0,laptop,10:30 AM,75%,Power Learner,Slow Learner
+U0293,ML301,2024-07-01,Regression,,47,0,0.0,No,4.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0083,DA201,2024-06-24,EDA Concepts,34.0,56,1,0.0,Yes,1.0,laptop,14:20,25%,Casual Learner,Slow Learner
+U0236,DS101,,Python Basics,,0,2,0.0,No,5.0,mobile,10:30 AM,Enrolled,Casual Learner,Slow Learner
+U0017,ML301,,Model Evaluation,100.0,23,2,0.0,No,3.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0204,ML301,,ML Intro,100.0,0,0,48.0,Yes,5.0,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0212,ML301,2024-06-05,Regression,,0,2,39.0,No,1.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0152,ML301,,Regression,56.0,0,1,48.0,Yes,1.0,desktop,9 PM,50%,Casual Learner,Slow Learner
+U0150,DA201,,Dashboards,68.0,117,1,0.0,No,3.0,desktop,22:15,50%,Power Learner,Slow Learner
+U0015,DS101,2024-06-10,Python Basics,0.0,98,3,51.0,Yes,4.0,laptop,9 PM,Enrolled,Power Learner,Slow Learner
+U0268,DA201,,EDA Concepts,33.0,49,3,0.0,No,1.0,desktop,22:15,25%,Casual Learner,Slow Learner
+U0115,DS101,,SQL Basics,,96,3,0.0,Yes,2.0,mobile,14:20,Enrolled,Power Learner,Slow Learner
+U0051,DA201,,Dashboards,,0,1,0.0,Yes,1.0,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0021,ML301,,Regression,,0,2,0.0,Yes,1.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0238,DS101,2024-06-29,Python Basics,,55,0,0.0,No,1.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0250,DA201,,Dashboards,,0,3,30.0,No,4.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0091,DA201,,Dashboards,62.0,0,2,65.0,No,,mobile,14:20,50%,Casual Learner,Slow Learner
+U0004,DA201,,Dashboards,,21,2,42.0,No,5.0,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0100,DS101,,Intro to Data,100.0,86,0,0.0,Yes,2.0,mobile,22:15,Completed,Casual Learner,Slow Learner
+U0203,DS101,,Intro to Data,30.0,137,3,0.0,No,3.0,desktop,9 PM,25%,Power Learner,Binge Learner
+U0075,DA201,,EDA Concepts,70.0,83,3,0.0,No,,desktop,9 PM,50%,Casual Learner,Slow Learner
+U0072,DA201,,EDA Concepts,,174,2,0.0,No,3.0,desktop,9 PM,Enrolled,Power Learner,Binge Learner
+U0286,ML301,2024-06-07,Model Evaluation,100.0,0,0,0.0,No,5.0,desktop,14:20,Completed,Casual Learner,Slow Learner
+U0024,ML301,,Regression,,76,0,0.0,No,2.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0225,DA201,2024-06-16,Intro Analytics,8.0,0,1,0.0,Yes,3.0,mobile,9 PM,Started,Casual Learner,Slow Learner
+U0294,ML301,,Model Evaluation,,0,2,76.0,Yes,1.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0117,DA201,2024-06-11,EDA Concepts,56.0,0,1,45.0,No,3.0,desktop,10:30 AM,50%,Casual Learner,Slow Learner
+U0271,DS101,2024-06-12,Python Basics,,134,3,66.0,Yes,5.0,mobile,10:30 AM,Enrolled,Power Learner,Binge Learner
+U0286,DS101,,Python Basics,12.0,0,0,85.0,No,3.0,mobile,9 PM,Started,Casual Learner,Slow Learner
+U0038,DS101,,Python Basics,100.0,10,2,30.0,Yes,,mobile,9 PM,Completed,Casual Learner,Slow Learner
+U0219,DS101,2024-06-28,SQL Basics,73.0,0,2,0.0,Yes,1.0,desktop,22:15,50%,Casual Learner,Slow Learner
+U0052,DS101,2024-06-20,Python Basics,22.0,22,2,0.0,Yes,2.0,mobile,14:20,Started,Casual Learner,Slow Learner
+U0139,DS101,,Intro to Data,,0,3,33.0,Yes,3.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0225,DA201,,Intro Analytics,,0,1,0.0,No,5.0,laptop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0163,DA201,2024-06-07,Intro Analytics,100.0,127,0,0.0,Yes,3.0,desktop,14:20,Completed,Power Learner,Binge Learner
+U0052,DA201,,EDA Concepts,6.0,171,1,40.0,No,,desktop,9 PM,Started,Power Learner,Binge Learner
+U0024,DS101,,Intro to Data,,0,1,0.0,Yes,4.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0191,ML301,2024-06-27,Regression,,0,1,0.0,Yes,,desktop,22:15,Enrolled,Casual Learner,Slow Learner
+U0157,DA201,,Dashboards,,11,0,0.0,Yes,3.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
+U0269,DS101,2024-06-04,Intro to Data,,28,0,44.0,No,3.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0069,ML301,,Model Evaluation,100.0,0,2,0.0,No,3.0,laptop,22:15,Completed,Casual Learner,Slow Learner
+U0065,DS101,2024-06-05,Python Basics,,29,2,0.0,Yes,2.0,mobile,9 PM,Enrolled,Casual Learner,Slow Learner
+U0169,ML301,,Regression,,88,2,0.0,No,5.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0094,DS101,2024-06-21,Intro to Data,,106,0,91.0,No,1.0,laptop,14:20,Enrolled,Power Learner,Slow Learner
+U0232,DS101,,SQL Basics,,76,2,53.0,No,3.0,laptop,14:20,Enrolled,Casual Learner,Slow Learner
+U0050,ML301,,Regression,,98,0,0.0,Yes,3.0,mobile,10:30 AM,Enrolled,Power Learner,Slow Learner
+U0282,ML301,,Regression,68.0,0,1,0.0,Yes,5.0,mobile,10:30 AM,50%,Casual Learner,Slow Learner
+U0102,ML301,,Model Evaluation,,141,1,51.0,Yes,,mobile,22:15,Enrolled,Power Learner,Binge Learner
+U0078,ML301,2024-06-14,Model Evaluation,,107,3,83.0,No,2.0,mobile,9 PM,Enrolled,Power Learner,Slow Learner
+U0001,DS101,,SQL Basics,,0,0,0.0,Yes,3.0,mobile,22:15,Enrolled,Casual Learner,Slow Learner
+U0201,DS101,,Python Basics,,0,1,0.0,No,,laptop,22:15,Enrolled,Casual Learner,Slow Learner
+U0106,DA201,,Intro Analytics,,0,2,43.0,Yes,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0064,ML301,,Model Evaluation,,92,0,78.0,Yes,5.0,desktop,14:20,Enrolled,Power Learner,Slow Learner
+U0300,DS101,,Python Basics,,0,0,0.0,No,5.0,desktop,14:20,Enrolled,Casual Learner,Slow Learner
+U0030,ML301,,ML Intro,60.0,168,3,62.0,Yes,,mobile,14:20,50%,Power Learner,Binge Learner
+U0125,ML301,,Regression,100.0,31,3,0.0,Yes,4.0,mobile,10:30 AM,Completed,Casual Learner,Slow Learner
+U0061,DS101,,SQL Basics,97.0,15,3,0.0,No,5.0,desktop,10:30 AM,75%,Casual Learner,Slow Learner
+U0111,ML301,,ML Intro,,79,0,88.0,No,5.0,desktop,9 PM,Enrolled,Casual Learner,Slow Learner
+U0128,DA201,2024-06-26,EDA Concepts,73.0,167,1,56.0,No,2.0,mobile,14:20,50%,Power Learner,Binge Learner
+U0046,DA201,,EDA Concepts,48.0,0,0,81.0,No,5.0,mobile,14:20,25%,Casual Learner,Slow Learner
+U0104,DA201,,Dashboards,76.0,0,1,0.0,Yes,1.0,laptop,9 PM,75%,Casual Learner,Slow Learner
+U0260,ML301,,Model Evaluation,35.0,0,1,0.0,No,2.0,mobile,9 PM,25%,Casual Learner,Slow Learner
+U0273,DA201,,EDA Concepts,16.0,0,2,58.0,Yes,1.0,laptop,22:15,Started,Casual Learner,Slow Learner
+U0141,DS101,,SQL Basics,,62,1,0.0,No,1.0,mobile,14:20,Enrolled,Casual Learner,Slow Learner
