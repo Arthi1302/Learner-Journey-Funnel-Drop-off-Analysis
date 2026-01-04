@@ -147,39 +147,32 @@ This analysis helped identify assessments as a potential friction point rather t
 
 Purpose: Analyze the relationship between engagement depth and outcomes.
 
+
 Observations:
 
 Learners who complete courses typically spend more time engaging with content.
-
 Beyond a certain threshold, increased time spent does not consistently lead to higher performance.
-
 Some learners invest significant time but still do not complete, indicating issues unrelated to effort alone.
-
 This highlighted that quality of engagement matters more than quantity.
+
 
 📌 Key Insights
 
 Early-stage disengagement is a major contributor to overall drop-offs.
-
 Learner behavior varies significantly and should not be analyzed as a single group.
-
 High effort does not always guarantee successful outcomes.
-
 Assessment structure and feedback mechanisms influence learner persistence.
-
 Targeted, behavior-based interventions are likely more effective than generic engagement strategies.
+
 
 🛠️ Tools Used
 
 SQL: Data quality checks, funnel logic, cohort analysis
-
 Python (Pandas): Data cleaning, transformation, EDA
-
 Power BI: Dashboarding and visual storytelling
-
 Git & GitHub: Version control and documentation
 
-📁 Project Structure
+
 learner-journey-funnel-analysis/
 ├── data/
 │   ├── raw/
@@ -192,28 +185,26 @@ learner-journey-funnel-analysis/
 ├── docs/
 └── README.md
 
+
 📸 Screenshots
 
 Dashboard screenshots for all four pages are available in the screenshots/ folder.
 
+
 📝 Notes & Limitations
 
 The dataset is simulated and does not represent a specific organization.
-
 Correlation observed in the analysis does not imply causation.
-
 Learner intent and external factors are not captured in the data.
+
 
 🎯 Project Intent
 
 This project was designed to reflect a real-world analytics workflow, focusing on:
 
 Data quality and validation
-
 Clear metric definitions
-
 Behavioral analysis
-
 Insight-driven storytelling
 
 The emphasis is on understanding learner behavior, not just reporting metrics.
