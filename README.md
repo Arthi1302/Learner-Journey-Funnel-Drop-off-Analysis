@@ -98,19 +98,23 @@ The Power BI dashboard is designed as a guided narrative, with **one business qu
 ---
 
 ## Project Structure
+## Project Structure
+
+```
 learner-journey-funnel-analysis/
 │
 ├── data/
-│ ├── raw/ # Original datasets
-│ ├── cleaned/ # Cleaned datasets
-│ └── curated/ # Analysis-ready datasets
+│   ├── raw/        # Original datasets
+│   ├── cleaned/    # Cleaned datasets
+│   └── curated/    # Analysis-ready datasets
 │
-├── sql/ # Data quality, funnel, and cohort queries
-├── notebooks/ # Data cleaning, EDA, and validation notebooks
-├── powerbi/ # Power BI dashboard (.pbix)
-├── screenshots/ # Dashboard screenshots
-├── docs/ # Assumptions, metrics, insights, recommendations
+├── sql/            # Data quality, funnel, and cohort queries
+├── notebooks/      # Data cleaning, EDA, and validation notebooks
+├── powerbi/        # Power BI dashboard (.pbix)
+├── screenshots/    # Dashboard screenshots
+├── docs/           # Assumptions, metrics, insights, recommendations
 └── README.md
+```
 
 ---
 
