@@ -1,90 +1,68 @@
 Learner Journey Funnel & Engagement Drop-off Analysis
 
-End-to-end analysis of learner engagement patterns to understand drop-offs, behavioral differences, and completion drivers in online courses.
+End-to-end analysis of learner engagement data to understand where learners drop off, how behavior differs across segments, and what factors influence course completion.
 
-SQL · Python (Pandas) · Power BI · GitHub
+Tools: SQL · Python (Pandas) · Power BI · GitHub
 
-📋 Table of Contents
+📌 1. Project Overview
 
-Overview
+This project analyzes learner activity data from an online learning platform to identify patterns of engagement and disengagement across the course lifecycle.
 
-Business Objective
+The analysis focuses on diagnosing why engagement breaks, rather than only measuring surface-level metrics like views or enrollments. The project follows a realistic analytics workflow, starting from messy raw data and ending with insight-driven dashboards and business recommendations.
 
-Analysis Approach
+🎯 2. Business Objectives
 
-Data & Assumptions
+The analysis was guided by the following objectives:
 
-Dashboard Walkthrough
+Identify stages in the learner journey where drop-offs are most frequent
 
-Key Insights
+Understand whether different learner behaviors lead to different outcomes
 
-Tools Used
+Analyze the relationship between assessments and course completion
 
-Project Structure
+Evaluate whether higher time investment always leads to better performance
 
-Screenshots
+Segment learners to identify high-risk and high-performing groups
 
-Notes & Limitations
+🔍 3. Analysis Approach
 
-🎯 Overview
+The project was executed in structured stages:
 
-This project analyzes learner activity data from an online learning platform to understand where learners disengage, how different learning behaviors affect completion, and whether effort and performance translate into successful outcomes.
+3.1 Data Quality & Validation (SQL)
 
-Instead of focusing only on engagement metrics, the analysis was designed to diagnose why engagement breaks and identify patterns that can inform content design, assessment strategy, and learner support.
+Checked for missing values, duplicates, and invalid records
 
-The project follows a realistic analytics workflow, starting from messy raw data and ending with business-ready insights and visual storytelling.
+Validated fields required for funnel and segmentation logic
 
-🧠 Business Objective
+Defined consistent rules for completion and progress stages
 
-The primary objective of this analysis was to answer the following questions:
+3.2 Data Cleaning & Transformation (Python)
 
-At which stages in the learning journey do learners drop off most frequently?
+Standardized date formats, categorical values, and progress metrics
 
-Do all learners behave similarly, or are there clear behavioral segments?
+Handled null values and unrealistic outliers
 
-How do assessment performance and retry behavior relate to course completion?
+Created cleaned and curated datasets for analysis and visualization
 
-Does higher time investment consistently lead to better outcomes?
+3.3 Exploratory Analysis & Segmentation
 
-Which learner segments are most at risk of disengagement?
-
-These questions guided the SQL logic, Python analysis, and Power BI dashboard design.
-
-🔍 Analysis Approach
-
-The project was executed in four logical stages:
-
-Data Quality & Validation (SQL)
-
-Checked for missing values, inconsistent formats, and outliers
-
-Validated core fields required for funnel and segmentation analysis
-
-Data Cleaning & Transformation (Python)
-
-Standardized dates, categories, and progress metrics
-
-Handled nulls and unrealistic values
-
-Created cleaned and curated datasets for analysis
-
-Exploratory Analysis & Segmentation
-
-Defined funnel stages based on learner progress
+Defined learner funnel stages based on progress thresholds
 
 Segmented learners by engagement intensity and learning pace
 
-Compared completers vs non-completers across key dimensions
+Compared completers vs non-completers across key metrics
 
-Visualization & Storytelling (Power BI)
+3.4 Visualization & Storytelling (Power BI)
 
-Designed dashboards with one business question per page
+Designed dashboards with one clear business question per page
 
-Focused on clarity, minimal color usage, and interpretability
+Used minimal colors and consistent formatting for clarity
 
-🧪 Data & Assumptions
+Focused on interpretability rather than visual complexity
 
-The dataset simulates LMS activity data and intentionally includes real-world issues such as:
+🧪 4. Data & Assumptions
+
+The dataset simulates LMS activity data and intentionally includes:
 
 Missing values
 
@@ -92,119 +70,92 @@ Inconsistent formats
 
 Outliers and edge cases
 
-Raw data is treated as immutable and is never modified after ingestion.
+Raw data is treated as immutable and never modified after ingestion
 
-Completion is defined using the completion_status field.
+Completion is defined using the completion_status field
 
-Time spent reflects engagement effort, not necessarily effectiveness.
+Time spent represents engagement effort, not guaranteed learning success
 
 Detailed assumptions and metric definitions are documented in the docs/ folder.
 
-📊 Dashboard Walkthrough
-🔹 Page 1: Learner Engagement Overview
+📊 5. Dashboard Walkthrough & Observations
+5.1 Page 1 – Learner Engagement Overview
 
-Purpose: Identify where learners drop off across the course journey.
+Purpose: Identify where learners drop off in the course journey.
 
-Observations:
+Key Observations:
 
-A significant portion of learners disengage shortly after enrollment.
+A large portion of learners disengage shortly after enrollment
 
-Drop-offs continue gradually across mid-course stages rather than at a single sharp point.
+Drop-offs occur gradually across mid-course stages
 
-Only a smaller subset of learners reach full completion.
+Only a smaller subset of learners reach full completion
 
-This page establishes where engagement breaks before exploring underlying reasons.
+5.2 Page 2 – Learner Segmentation
 
-🔹 Page 2: Learner Segmentation
+Purpose: Understand how learner behavior affects completion.
 
-Purpose: Understand how different learner behaviors affect completion.
+Key Observations:
 
-Observations:
+Casual learners form the largest group and contribute most to non-completions
 
-Casual learners form the largest group and contribute to the highest number of non-completions.
+Power learners show more consistent completion behavior
 
-Power learners, though fewer, show more consistent completion behavior.
+Learners with concentrated learning sessions tend to complete more often
 
-Learners who progress in concentrated sessions tend to complete more often than those with long gaps.
-
-Segmentation revealed that aggregate metrics hide important behavioral differences.
-
-🔹 Page 3: Assessment Impact
+5.3 Page 3 – Assessment Impact
 
 Purpose: Evaluate whether assessments influence learner drop-off.
 
-Observations:
+Key Observations:
 
-Completed learners generally achieve slightly higher assessment scores.
+Completed learners generally score slightly higher on assessments
 
-Non-completers often make more assessment attempts, suggesting difficulty rather than lack of effort.
+Non-completers often attempt assessments more times
 
-Assessment performance influences persistence but does not fully explain disengagement.
+Assessment difficulty appears to affect persistence but is not the sole cause of drop-off
 
-This analysis helped identify assessments as a potential friction point rather than a single root cause.
-
-🔹 Page 4: Time Investment
+5.4 Page 4 – Time Investment
 
 Purpose: Analyze the relationship between engagement depth and outcomes.
 
+Key Observations:
 
-Observations:
+Completers generally spend more time engaging with content
 
-Learners who complete courses typically spend more time engaging with content.
-Beyond a certain threshold, increased time spent does not consistently lead to higher performance.
-Some learners invest significant time but still do not complete, indicating issues unrelated to effort alone.
-This highlighted that quality of engagement matters more than quantity.
+Increased time spent does not always translate to higher performance
 
+Some learners invest significant time but still fail to complete
 
-📌 Key Insights
+📌 6. Key Insights
 
-Early-stage disengagement is a major contributor to overall drop-offs.
-Learner behavior varies significantly and should not be analyzed as a single group.
-High effort does not always guarantee successful outcomes.
-Assessment structure and feedback mechanisms influence learner persistence.
-Targeted, behavior-based interventions are likely more effective than generic engagement strategies.
+Early-stage disengagement is a major driver of overall drop-offs
 
+Learner behavior varies significantly and should not be analyzed in aggregate
 
-🛠️ Tools Used
+High effort does not always guarantee successful completion
+
+Assessment structure and feedback play a role in learner persistence
+
+Behavioral segmentation enables more targeted intervention strategies
+
+🛠️ 7. Tools Used
 
 SQL: Data quality checks, funnel logic, cohort analysis
+
 Python (Pandas): Data cleaning, transformation, EDA
+
 Power BI: Dashboarding and visual storytelling
+
 Git & GitHub: Version control and documentation
 
+📁 8. Project Structure
 
 learner-journey-funnel-analysis/
-├── data/
-│   ├── raw/
-│   ├── cleaned/
-│   └── curated/
-├── sql/
-├── notebooks/
-├── powerbi/
-├── screenshots/
-├── docs/
+├── data/          # raw, cleaned, curated datasets
+├── sql/           # data quality, funnel, cohort queries
+├── notebooks/     # cleaning, EDA, validation
+├── powerbi/       # Power BI dashboard (.pbix)
+├── screenshots/   # dashboard images
+├── docs/          # assumptions, metrics, insights, recommendations
 └── README.md
-
-
-📸 Screenshots
-
-Dashboard screenshots for all four pages are available in the screenshots/ folder.
-
-
-📝 Notes & Limitations
-
-The dataset is simulated and does not represent a specific organization.
-Correlation observed in the analysis does not imply causation.
-Learner intent and external factors are not captured in the data.
-
-
-🎯 Project Intent
-
-This project was designed to reflect a real-world analytics workflow, focusing on:
-
-Data quality and validation
-Clear metric definitions
-Behavioral analysis
-Insight-driven storytelling
-
-The emphasis is on understanding learner behavior, not just reporting metrics.
