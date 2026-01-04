@@ -98,7 +98,6 @@ The Power BI dashboard is designed as a guided narrative, with **one business qu
 ---
 
 ## Project Structure
-## Project Structure
 
 ```
 learner-journey-funnel-analysis/
